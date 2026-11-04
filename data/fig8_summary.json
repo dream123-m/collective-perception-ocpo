@@ -1,0 +1,345 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-30T00:08:20.095062+00:00",
+  "zero_speed_matches_saved_test": true,
+  "paired_layouts": 32,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "speeds_kmh": [
+    0,
+    60,
+    90,
+    120
+  ],
+  "aggregate": [
+    {
+      "method": "mappo",
+      "speed_kmh": 0,
+      "reward_mean": 4.827231639818776,
+      "reward_sample_sd": 0.08457304776767259,
+      "coverage_mean": 0.9371570586641377,
+      "coverage_sample_sd": 0.0006388671262838314,
+      "payload_mean": 6.338003663003663,
+      "payload_sample_sd": 0.1300146674915227
+    },
+    {
+      "method": "ocpo",
+      "speed_kmh": 0,
+      "reward_mean": 4.919755605714662,
+      "reward_sample_sd": 0.1507079744087625,
+      "coverage_mean": 0.9442382629789485,
+      "coverage_sample_sd": 0.004912055633415344,
+      "payload_mean": 6.665728021978023,
+      "payload_sample_sd": 0.17183650052943128
+    },
+    {
+      "method": "mappo",
+      "speed_kmh": 60,
+      "reward_mean": 4.911427168530367,
+      "reward_sample_sd": 0.005259544959590854,
+      "coverage_mean": 0.9401436321378571,
+      "coverage_sample_sd": 0.001629856547600499,
+      "payload_mean": 6.322046703296703,
+      "payload_sample_sd": 0.1370309697799848
+    },
+    {
+      "method": "ocpo",
+      "speed_kmh": 60,
+      "reward_mean": 4.979646624908561,
+      "reward_sample_sd": 0.05452401223275487,
+      "coverage_mean": 0.9467968150205482,
+      "coverage_sample_sd": 0.005560166597247164,
+      "payload_mean": 6.642765567765569,
+      "payload_sample_sd": 0.157447430390763
+    },
+    {
+      "method": "mappo",
+      "speed_kmh": 90,
+      "reward_mean": 4.853660975982035,
+      "reward_sample_sd": 0.06680225561028783,
+      "coverage_mean": 0.9381760037032019,
+      "coverage_sample_sd": 0.002240268739226195,
+      "payload_mean": 6.29933608058608,
+      "payload_sample_sd": 0.1392299305879633
+    },
+    {
+      "method": "ocpo",
+      "speed_kmh": 90,
+      "reward_mean": 4.952075893059373,
+      "reward_sample_sd": 0.16703338968133633,
+      "coverage_mean": 0.9462463145399063,
+      "coverage_sample_sd": 0.00573789352328413,
+      "payload_mean": 6.61632326007326,
+      "payload_sample_sd": 0.16581170116923644
+    },
+    {
+      "method": "mappo",
+      "speed_kmh": 120,
+      "reward_mean": 4.738216907140755,
+      "reward_sample_sd": 0.0653370248514006,
+      "coverage_mean": 0.9357265235385578,
+      "coverage_sample_sd": 0.0019366802587465345,
+      "payload_mean": 6.286446886446886,
+      "payload_sample_sd": 0.12254226147423773
+    },
+    {
+      "method": "ocpo",
+      "speed_kmh": 120,
+      "reward_mean": 4.943596415132993,
+      "reward_sample_sd": 0.2019157706698917,
+      "coverage_mean": 0.9447441064896355,
+      "coverage_sample_sd": 0.006452419660368262,
+      "payload_mean": 6.601282051282051,
+      "payload_sample_sd": 0.17273500935132177
+    }
+  ],
+  "per_seed": [
+    {
+      "method": "mappo",
+      "seed": 42,
+      "speed_kmh": 0,
+      "layouts": 32,
+      "reward": 4.76066352453615,
+      "coverage": 0.9377289299746453,
+      "payload": 6.197458791208791,
+      "all_on_coverage": 0.9889687203630945
+    },
+    {
+      "method": "ocpo",
+      "seed": 42,
+      "speed_kmh": 0,
+      "layouts": 32,
+      "reward": 4.746200922344412,
+      "coverage": 0.9386370894381326,
+      "payload": 6.486126373626374,
+      "all_on_coverage": 0.9889687203630945
+    },
+    {
+      "method": "mappo",
+      "seed": 123,
+      "speed_kmh": 0,
+      "layouts": 32,
+      "reward": 4.922395540135247,
+      "coverage": 0.9372746990341998,
+      "payload": 6.362568681318681,
+      "all_on_coverage": 0.9889687203630945
+    },
+    {
+      "method": "ocpo",
+      "seed": 123,
+      "speed_kmh": 0,
+      "layouts": 32,
+      "reward": 5.017577061695713,
+      "coverage": 0.9462652660305417,
+      "payload": 6.682486263736264,
+      "all_on_coverage": 0.9889687203630945
+    },
+    {
+      "method": "mappo",
+      "seed": 456,
+      "speed_kmh": 0,
+      "layouts": 32,
+      "reward": 4.798635854784931,
+      "coverage": 0.9364675469835678,
+      "payload": 6.453983516483516,
+      "all_on_coverage": 0.9889687203630945
+    },
+    {
+      "method": "ocpo",
+      "seed": 456,
+      "speed_kmh": 0,
+      "layouts": 32,
+      "reward": 4.995488833103861,
+      "coverage": 0.9478124334681712,
+      "payload": 6.828571428571429,
+      "all_on_coverage": 0.9889687203630945
+    },
+    {
+      "method": "mappo",
+      "seed": 42,
+      "speed_kmh": 60,
+      "layouts": 32,
+      "reward": 4.913126122738634,
+      "coverage": 0.9386776133702364,
+      "payload": 6.171153846153846,
+      "all_on_coverage": 0.9899933105270289
+    },
+    {
+      "method": "ocpo",
+      "seed": 42,
+      "speed_kmh": 60,
+      "layouts": 32,
+      "reward": 4.920230076781341,
+      "coverage": 0.9407815312481855,
+      "payload": 6.476717032967033,
+      "all_on_coverage": 0.9899933105270289
+    },
+    {
+      "method": "mappo",
+      "seed": 123,
+      "speed_kmh": 60,
+      "layouts": 32,
+      "reward": 4.905528139056903,
+      "coverage": 0.939854621905665,
+      "payload": 6.356249999999999,
+      "all_on_coverage": 0.9899933105270289
+    },
+    {
+      "method": "ocpo",
+      "seed": 123,
+      "speed_kmh": 60,
+      "layouts": 32,
+      "reward": 4.991323724122983,
+      "coverage": 0.9517480935606867,
+      "payload": 6.661675824175825,
+      "all_on_coverage": 0.9899933105270289
+    },
+    {
+      "method": "mappo",
+      "seed": 456,
+      "speed_kmh": 60,
+      "layouts": 32,
+      "reward": 4.915627243795566,
+      "coverage": 0.9418986611376701,
+      "payload": 6.4387362637362635,
+      "all_on_coverage": 0.9899933105270289
+    },
+    {
+      "method": "ocpo",
+      "seed": 456,
+      "speed_kmh": 60,
+      "layouts": 32,
+      "reward": 5.027386073821358,
+      "coverage": 0.9478608202527725,
+      "payload": 6.789903846153846,
+      "all_on_coverage": 0.9899933105270289
+    },
+    {
+      "method": "mappo",
+      "seed": 42,
+      "speed_kmh": 90,
+      "layouts": 32,
+      "reward": 4.9268145976322035,
+      "coverage": 0.9390517036986858,
+      "payload": 6.153640109890111,
+      "all_on_coverage": 0.989224867904078
+    },
+    {
+      "method": "ocpo",
+      "seed": 42,
+      "speed_kmh": 90,
+      "layouts": 32,
+      "reward": 4.759629383683205,
+      "coverage": 0.9396471635666868,
+      "payload": 6.441895604395605,
+      "all_on_coverage": 0.989224867904078
+    },
+    {
+      "method": "mappo",
+      "seed": 123,
+      "speed_kmh": 90,
+      "layouts": 32,
+      "reward": 4.795895675729428,
+      "coverage": 0.93563015319256,
+      "payload": 6.313324175824175,
+      "all_on_coverage": 0.989224867904078
+    },
+    {
+      "method": "ocpo",
+      "seed": 123,
+      "speed_kmh": 90,
+      "layouts": 32,
+      "reward": 5.059408109901207,
+      "coverage": 0.9500575802736757,
+      "payload": 6.635164835164835,
+      "all_on_coverage": 0.989224867904078
+    },
+    {
+      "method": "mappo",
+      "seed": 456,
+      "speed_kmh": 90,
+      "layouts": 32,
+      "reward": 4.838272654584475,
+      "coverage": 0.9398461542183598,
+      "payload": 6.431043956043956,
+      "all_on_coverage": 0.989224867904078
+    },
+    {
+      "method": "ocpo",
+      "seed": 456,
+      "speed_kmh": 90,
+      "layouts": 32,
+      "reward": 5.037190185593707,
+      "coverage": 0.9490341997793562,
+      "payload": 6.771909340659341,
+      "all_on_coverage": 0.989224867904078
+    },
+    {
+      "method": "mappo",
+      "seed": 42,
+      "speed_kmh": 120,
+      "layouts": 32,
+      "reward": 4.811325915157795,
+      "coverage": 0.934934593163915,
+      "payload": 6.16195054945055,
+      "all_on_coverage": 0.9887083389784582
+    },
+    {
+      "method": "ocpo",
+      "seed": 42,
+      "speed_kmh": 120,
+      "layouts": 32,
+      "reward": 4.7119607241558175,
+      "coverage": 0.9379690493932298,
+      "payload": 6.422321428571428,
+      "all_on_coverage": 0.9887083389784582
+    },
+    {
+      "method": "mappo",
+      "seed": 123,
+      "speed_kmh": 120,
+      "layouts": 32,
+      "reward": 4.685530709901027,
+      "coverage": 0.9343113108947684,
+      "payload": 6.290453296703296,
+      "all_on_coverage": 0.9887083389784582
+    },
+    {
+      "method": "ocpo",
+      "seed": 123,
+      "speed_kmh": 120,
+      "layouts": 32,
+      "reward": 5.082406834300075,
+      "coverage": 0.9454469245359707,
+      "payload": 6.614491758241758,
+      "all_on_coverage": 0.9887083389784582
+    },
+    {
+      "method": "mappo",
+      "seed": 456,
+      "speed_kmh": 120,
+      "layouts": 32,
+      "reward": 4.717794096363442,
+      "coverage": 0.93793366655699,
+      "payload": 6.406936813186813,
+      "all_on_coverage": 0.9887083389784582
+    },
+    {
+      "method": "ocpo",
+      "seed": 456,
+      "speed_kmh": 120,
+      "layouts": 32,
+      "reward": 5.036421686943088,
+      "coverage": 0.9508163455397061,
+      "payload": 6.767032967032967,
+      "all_on_coverage": 0.9887083389784582
+    }
+  ],
+  "protocol_sha256": "c41a2eaf99098035247a358dc6267a447c93aaab1cf24400a6af16949ddfb45d",
+  "geometry_sha256": "584315c7c0853a927e3c7ad10f8a18499ffdccd907d53bdfb9aa1ade8e4d57d1",
+  "per_layout_sha256": "430f986e2c81ef6c4cb6c1677c3bf14635e08cdbd2507b53e5eb4a45e2a4f726",
+  "interpretation": "Transforms the 32 already-inspected held-out layouts; results are exploratory, not new independent layouts."
+}

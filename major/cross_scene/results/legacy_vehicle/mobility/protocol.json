@@ -1,0 +1,22 @@
+{
+  "code_sha256": "cbb70dbee4ee0cf07ae53fc86deb312ac9b326e23aad4b99b2ec3933a8201dfa",
+  "data_manifest_sha256": "59908db72906182ccc93faeff23589856cd0041ae25915c6b6a2e9644f59d97c",
+  "original_freeze_sha256": "4c5fb66f5cf17e3fac3631c09608b9c59e04857039f05a4bd0ef1d3697660fb4",
+  "baseline_test_sha256": "64ddda45fea9625ad9fe6fbfbc2368c40dd8ffbaa5538e7ec55a3ceb3d059f18",
+  "speeds_kmh": [
+    0,
+    60,
+    90,
+    120
+  ],
+  "interval_seconds": 0.5,
+  "mobility_seed": 20261030,
+  "speeds": "Per vehicle Normal(mean speed, 0.2*mean), clipped to [0.8,1.2] times mean. The same standardized draws are reused across speeds.",
+  "following": "Same lane, positive x, no overtaking; follower movement constrained to preserve a 5.2 m minimum center gap.",
+  "road_boundary": "Displaced vehicles may exit the original 1000 m segment; none are wrapped or removed.",
+  "geometry": "Recompute LOS, sensing and local geometric ordering using the displaced positions.",
+  "fading": "Same unit fading matrix, fixed seed 0, across all layouts, methods and speeds; geometry changes link powers.",
+  "policy": "Frozen best validation checkpoints; no further training.",
+  "inference": "Deterministic local actors; seven-step average reward/coverage/payload.",
+  "split": "Transforms the 32 already-inspected held-out layouts; results are exploratory, not new independent layouts."
+}

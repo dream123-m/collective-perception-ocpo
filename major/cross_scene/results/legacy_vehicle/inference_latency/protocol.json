@@ -1,0 +1,65 @@
+{
+  "code_sha256": "e713a22b9cc62f8e42a7db1922618e1ddc263adb57a3be25499eb993ec8431e9",
+  "trained_freeze_sha256": "4c5fb66f5cf17e3fac3631c09608b9c59e04857039f05a4bd0ef1d3697660fb4",
+  "scenarios": [
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "file": "MAPPO/vehicles_density25_penetration0.3.mat",
+      "sha256": "ee0c2330f64e3b462786ca3101205022e4a5861c690b48ee08bbdb8171a03daa",
+      "vehicles": 81,
+      "cavs": 27
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "file": "MAPPO/vehicles_density25_penetration0.5.mat",
+      "sha256": "b39dde7296b9c1f66c70b848670e71622964922b29546a1a6c2068888e53ec7b",
+      "vehicles": 71,
+      "cavs": 41
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "file": "MAPPO/vehicles_density50_penetration0.5.mat",
+      "sha256": "176bf1ce4df026f24fd422a6a89b9ca5542d89812a0d8edcebdfa49c736c9ed3",
+      "vehicles": 122,
+      "cavs": 65
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "file": "MAPPO/vehicles_density50_penetration0.7.mat",
+      "sha256": "a5afe4bdc2447064e818a07da9d2e0e0b9955af93851f620d547b69580181b2c",
+      "vehicles": 139,
+      "cavs": 101
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "file": "MAPPO/vehicles_density75_penetration0.7.mat",
+      "sha256": "57e8d2fb1825b2aa2cbda0ec284687c38f34c78db8b47c974d1fae934a99beb8",
+      "vehicles": 170,
+      "cavs": 107
+    }
+  ],
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "warmup": 20,
+  "repeats": 200,
+  "device": "cpu",
+  "threads": 1,
+  "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "torch": "2.5.1",
+  "population_weights": "Freshly initialized actor weights for all five scenario sizes; seed labels initialization and timing repeats, not training.",
+  "trained_reference": "Separate reference on the source 122-vehicle/65-CAV scene with three trained OCPO actor checkpoints.",
+  "network": "Current local actor: two Tanh layers (64,64), sigmoid outputs; input/output width follows each scenario.",
+  "operation": "Sequential local forwards, observation conversion, valid-action mask, 0.5 threshold and NumPy output; excludes observation construction, environment stepping, radio and training.",
+  "statistics": "Mean over 200 timed repetitions for each seed; aggregate mean and sample SD across the three initialization or training seeds.",
+  "source_los": "LOS is recomputed from archived positions with the current geometry code; self excluded.",
+  "previous_target_sweep_status": "completed"
+}

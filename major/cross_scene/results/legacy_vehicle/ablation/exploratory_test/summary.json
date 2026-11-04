@@ -1,0 +1,177 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-30T02:13:45.803512+00:00",
+  "records": [
+    {
+      "method": "team_vehicle",
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\team_vehicle_seed_42\\best.pt",
+      "sha256": "d3f060792afea58c3adcfcc605c5d27c46cbc6eee9c151acc86ada7349f87551",
+      "episode": 700,
+      "reward": 4.796353016580854,
+      "coverage": 0.9436717343759072,
+      "payload": 6.714697802197802,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "4cd1496626719f7f1ffe3f3fb1b811bfb0bd33457d9a235b2e0e3566d36985b4",
+      "csv_sha256": "3d9c18187d887cd3024641c3a4ad38243074986407865d3ca6e6ef12f59e6576"
+    },
+    {
+      "method": "individual_pair",
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\individual_pair_seed_42\\best.pt",
+      "sha256": "65520d7c1ffdaf3283929b538491ad1a89cdfe98ada3ad4c20859e4d46284283",
+      "episode": 500,
+      "reward": 4.6419468224048615,
+      "coverage": 0.9308909700582577,
+      "payload": 6.08021978021978,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "7baeb0a15f444d4185c2810fb63668fd28956e74333d7e32ed92e06a31b1ebd6",
+      "csv_sha256": "e2d18c00ecfba7a339239e6a2c098ae0b643ae07a6e763a93c31093df3df8660"
+    },
+    {
+      "method": "target_shuffle",
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\shuffled\\ocpo_seed_42\\best.pt",
+      "sha256": "569a9846aa12a74f9841baeb985bc00600e814faae13e9e9b7b9a47c31b0fb1b",
+      "episode": 300,
+      "reward": 4.696043390780687,
+      "coverage": 0.9335065781833666,
+      "payload": 6.343749999999999,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "8ff7f3f108234aa36da48f44d07a01f5c0b66b2bd06f4485b9837c6b70c08dcb",
+      "csv_sha256": "c95e0a2d5fcca03632e023e02bc8860f178a60c4f9101f82de9ce6ca8dfbcbaa"
+    },
+    {
+      "method": "team_vehicle",
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\team_vehicle_seed_123\\best.pt",
+      "sha256": "ca5263030682aa5e5d51b88da7190e9d4610440a4027890897124ac850375e0b",
+      "episode": 900,
+      "reward": 4.848156996071339,
+      "coverage": 0.9426728496912924,
+      "payload": 6.618131868131869,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "b870ad547acf6599a30d479a4196701e8224afff4ee13f5637a00f5db6158ad4",
+      "csv_sha256": "6b1e7fcd724c5f096ba9d25b85f63c7e1bd01d23229b571ebc2658ab15e75cd1"
+    },
+    {
+      "method": "individual_pair",
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\individual_pair_seed_123\\best.pt",
+      "sha256": "fdd88a7732ef67254d3dacebd3da8d73a62a26d70c722a28fbc78c68846c5d72",
+      "episode": 800,
+      "reward": 4.625234160306198,
+      "coverage": 0.9303423848878394,
+      "payload": 5.884340659340658,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "9f2798cf2d349a9d0425ec7e4e9371e55b9eb53c3bbba758711af43598dd844c",
+      "csv_sha256": "5752912b3dfa89adf49b507c7670cf973a088f4228ed51ed8100b23c5621161a"
+    },
+    {
+      "method": "target_shuffle",
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\shuffled\\ocpo_seed_123\\best.pt",
+      "sha256": "8e2f1267d4981fc3d82ce6ceb161079a1b3b38cfc9baf35ddcd292a53e2bd4a3",
+      "episode": 100,
+      "reward": 4.928820937871933,
+      "coverage": 0.9413884829775292,
+      "payload": 6.497527472527473,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "fe03fc46904c20c3d386259f550824c91f4a8b5b6fe3a78c51bb6fef78985645",
+      "csv_sha256": "dc3b0b2a5693650694ffbb76a177c3fc87f0a8a43ac477deec07f7a241812e9c"
+    },
+    {
+      "method": "team_vehicle",
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\team_vehicle_seed_456\\best.pt",
+      "sha256": "08926e53104da01d2a4839e35bbf2026762ccc4af51c50c6655c91389d7f290c",
+      "episode": 500,
+      "reward": 4.727547121899469,
+      "coverage": 0.9494001248379043,
+      "payload": 6.633310439560439,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "e42dcfbf1b94cc4bc0bc3135e4db9770b03aa674a737da86941e609016d66d6d",
+      "csv_sha256": "132f3f44b9f22fb1e6659108e04c60eb622de12bf29a95ec2f5373c9839e4545"
+    },
+    {
+      "method": "individual_pair",
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\individual_pair_seed_456\\best.pt",
+      "sha256": "d5f936a8f8fbcd209e5c0cc89bc6eea20c820d7b1e30ea53c52d1ff112a73fac",
+      "episode": 300,
+      "reward": 4.887480738971915,
+      "coverage": 0.9388518057948013,
+      "payload": 6.355082417582418,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "36f820e40e1af0203a7a8b52ac38811a128c0335e033cda5cb158cda52d171e5",
+      "csv_sha256": "5a5cbb9e2c705edb83ace3668518fa65a47aa2f5d86da84abb6d8dd4bbb4a037"
+    },
+    {
+      "method": "target_shuffle",
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\shuffled\\ocpo_seed_456\\best.pt",
+      "sha256": "a5172e5f08ccdbc9ce8d37d8c0e8d6952255bbe088c45efdded7f39d20ef8230",
+      "episode": 1000,
+      "reward": 4.956588811108045,
+      "coverage": 0.9493937740724254,
+      "payload": 6.800343406593407,
+      "all_on_coverage": 0.9889687203630945,
+      "layouts": 32,
+      "policy_sha256": "687e17947647c5e618da6ad22ad1836718774a856d62788011dffa6b36ec7c26",
+      "csv_sha256": "e364d18022b14b0dc7ae5d9da91b14e5023bc74837528034794a8b150002746f"
+    }
+  ],
+  "aggregate": {
+    "team_vehicle": {
+      "reward": {
+        "mean": 4.79068571151722,
+        "sample_sd": 0.06050433205111673
+      },
+      "coverage": {
+        "mean": 0.9452482363017013,
+        "sample_sd": 0.0036301620440525395
+      },
+      "payload": {
+        "mean": 6.655380036630037,
+        "sample_sd": 0.051928270158145176
+      }
+    },
+    "individual_pair": {
+      "reward": {
+        "mean": 4.718220573894325,
+        "sample_sd": 0.14682159541489723
+      },
+      "coverage": {
+        "mean": 0.9333617202469662,
+        "sample_sd": 0.004762459019688491
+      },
+      "payload": {
+        "mean": 6.1065476190476184,
+        "sample_sd": 0.23647265605381157
+      }
+    },
+    "target_shuffle": {
+      "reward": {
+        "mean": 4.860484379920222,
+        "sample_sd": 0.14308526436326535
+      },
+      "coverage": {
+        "mean": 0.9414296117444404,
+        "sample_sd": 0.007943677799730601
+      },
+      "payload": {
+        "mean": 6.547206959706959,
+        "sample_sd": 0.23231535317528154
+      }
+    }
+  },
+  "interpretation": "Exploratory component comparison on the previously inspected 32 layouts."
+}

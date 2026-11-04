@@ -1,0 +1,548 @@
+{
+  "status": "completed",
+  "seed": 123,
+  "aggregate": [
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 4.79713563354952,
+      "coverage_mean": 0.9104188239108135,
+      "payload_mean": 5.487980769230769
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 4.9332960072372645,
+      "coverage_mean": 0.9047394250682254,
+      "payload_mean": 5.812843406593407
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 0.158748030255083,
+      "coverage_mean": 0.9889687203630945,
+      "payload_mean": 12.840865384615384
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 4.9223955401352475,
+      "coverage_mean": 0.9372746990341998,
+      "payload_mean": 6.362568681318681
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 5.017577061695712,
+      "coverage_mean": 0.9462652660305417,
+      "payload_mean": 6.682486263736264
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 2.751362379640341,
+      "coverage_mean": 0.9889687203630945,
+      "payload_mean": 12.840865384615384
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 0.6242391161907178,
+      "coverage_mean": 0.6080540009813235,
+      "payload_mean": 5.013375246548323
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 0.9355218583861222,
+      "coverage_mean": 0.7788003358427595,
+      "payload_mean": 7.605399408284024
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 2.3063884312286973,
+      "coverage_mean": 0.912794746247703,
+      "payload_mean": 12.926282051282051
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 0.6320746817554419,
+      "coverage_mean": 0.6293285667170068,
+      "payload_mean": 5.211353550295859
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 0.5371586535699092,
+      "coverage_mean": 0.6997081739670173,
+      "payload_mean": 6.1044748520710055
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 2.4252014597004745,
+      "coverage_mean": 0.912794746247703,
+      "payload_mean": 12.926282051282051
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 1.506727358698845,
+      "coverage_mean": 0.9872302158273382,
+      "payload_mean": 5.727165841584158
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 1.9754713349044324,
+      "coverage_mean": 0.9719424460431655,
+      "payload_mean": 5.4697400990099005
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 0.3031736146658659,
+      "coverage_mean": 1.0,
+      "payload_mean": 12.508972772277227
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 4.577917152643204,
+      "coverage_mean": 0.9840377697841727,
+      "payload_mean": 5.794554455445544
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 5.119272793829441,
+      "coverage_mean": 0.9743255395683453,
+      "payload_mean": 5.700680693069307
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 2.573713131248951,
+      "coverage_mean": 1.0,
+      "payload_mean": 12.508972772277227
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 3.3940514837546893,
+      "coverage_mean": 0.8828491784037559,
+      "payload_mean": 4.645007621951219
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 3.1449057369609363,
+      "coverage_mean": 0.900931631455399,
+      "payload_mean": 5.047192581300813
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": -0.37841655034571886,
+      "coverage_mean": 0.9942781690140844,
+      "payload_mean": 10.713414634146341
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 3.3559966660880796,
+      "coverage_mean": 0.9217649647887324,
+      "payload_mean": 5.557672764227642
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 3.2668492512311786,
+      "coverage_mean": 0.9324383802816901,
+      "payload_mean": 5.782266260162602
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 1.6854986920952797,
+      "coverage_mean": 0.9942781690140844,
+      "payload_mean": 10.713414634146341
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 4.545143328607082,
+      "coverage_mean": 0.9296102972496045,
+      "payload_mean": 6.043995098039216
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 5.204662357767423,
+      "coverage_mean": 0.9086210371790191,
+      "payload_mean": 5.357291666666667
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 0.7226465996354818,
+      "coverage_mean": 0.9981174698795181,
+      "payload_mean": 12.409191176470587
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 5.606473768750827,
+      "coverage_mean": 0.9543096628940002,
+      "payload_mean": 6.492524509803921
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 5.626981553932031,
+      "coverage_mean": 0.9530544526591214,
+      "payload_mean": 6.351960784313725
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 2.9829495176672935,
+      "coverage_mean": 0.9981174698795181,
+      "payload_mean": 12.409191176470587
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 0.30182742736198837,
+      "coverage_mean": 0.48839409476999945,
+      "payload_mean": 3.5597993827160495
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 0.2084112122021098,
+      "coverage_mean": 0.6611585856221859,
+      "payload_mean": 5.423611111111111
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 0.853581452916842,
+      "coverage_mean": 0.8700570420408237,
+      "payload_mean": 10.914351851851851
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 0.3017664314247668,
+      "coverage_mean": 0.5077844919637217,
+      "payload_mean": 3.6057741769547325
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 0.25238731600499403,
+      "coverage_mean": 0.5852070564035446,
+      "payload_mean": 4.520318930041152
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 1.2673138566315174,
+      "coverage_mean": 0.8700570420408237,
+      "payload_mean": 10.914351851851851
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 4.045666310729252,
+      "coverage_mean": 0.9047947124756336,
+      "payload_mean": 4.09469696969697
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 3.5263713395429983,
+      "coverage_mean": 0.9071284113060429,
+      "payload_mean": 4.8157828282828286
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": -0.34877359779784456,
+      "coverage_mean": 0.997532894736842,
+      "payload_mean": 10.911363636363635
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 4.268891899743014,
+      "coverage_mean": 0.9464144736842106,
+      "payload_mean": 5.018497474747475
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 4.430554061300224,
+      "coverage_mean": 0.9557571881091618,
+      "payload_mean": 5.493876262626262
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 1.7787674441933632,
+      "coverage_mean": 0.997532894736842,
+      "payload_mean": 10.911363636363635
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 2.72791073554092,
+      "coverage_mean": 0.8435886420780836,
+      "payload_mean": 7.3191168763102725
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 3.1129423489587174,
+      "coverage_mean": 0.8525635599699418,
+      "payload_mean": 7.588115828092243
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 2.1169834975153208,
+      "coverage_mean": 0.9576853936237404,
+      "payload_mean": 12.525943396226415
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 0.9411918018013239,
+      "coverage_mean": 0.7805424755328998,
+      "payload_mean": 6.469667190775682
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 1.1925167501386669,
+      "coverage_mean": 0.8414658488519446,
+      "payload_mean": 7.17059748427673
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 4.259940832853317,
+      "coverage_mean": 0.9576853936237404,
+      "payload_mean": 12.525943396226415
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 1.7417406607419252,
+      "coverage_mean": 0.9847426470588235,
+      "payload_mean": 6.603971962616822
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 2.953249375335872,
+      "coverage_mean": 0.9579963235294118,
+      "payload_mean": 5.647123247663552
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.9,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 0.6920382231473923,
+      "coverage_mean": 0.9996323529411765,
+      "payload_mean": 12.690128504672897
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "mappo",
+      "seed": 123,
+      "reward_mean": 4.977763945236802,
+      "coverage_mean": 0.9801011029411765,
+      "payload_mean": 6.140040887850467
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "ocpo",
+      "seed": 123,
+      "reward_mean": 5.330837583169341,
+      "coverage_mean": 0.975,
+      "payload_mean": 6.110105140186916
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.95,
+      "method": "naive",
+      "seed": null,
+      "reward_mean": 2.9854265823960304,
+      "coverage_mean": 0.9996323529411765,
+      "payload_mean": 12.690128504672897
+    }
+  ],
+  "freeze_sha256": "f53a87310c6f2cec75b3b727e31950ef69a31de381d21fcbff8c6cfd78645ed1",
+  "interpretation": "Single validation-selected training seed; no seed standard deviation."
+}

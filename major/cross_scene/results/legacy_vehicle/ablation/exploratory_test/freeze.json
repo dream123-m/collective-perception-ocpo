@@ -1,0 +1,71 @@
+{
+  "models": [
+    {
+      "method": "team_vehicle",
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\team_vehicle_seed_42\\best.pt",
+      "sha256": "d3f060792afea58c3adcfcc605c5d27c46cbc6eee9c151acc86ada7349f87551",
+      "episode": 700
+    },
+    {
+      "method": "individual_pair",
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\individual_pair_seed_42\\best.pt",
+      "sha256": "65520d7c1ffdaf3283929b538491ad1a89cdfe98ada3ad4c20859e4d46284283",
+      "episode": 500
+    },
+    {
+      "method": "target_shuffle",
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\shuffled\\ocpo_seed_42\\best.pt",
+      "sha256": "569a9846aa12a74f9841baeb985bc00600e814faae13e9e9b7b9a47c31b0fb1b",
+      "episode": 300
+    },
+    {
+      "method": "team_vehicle",
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\team_vehicle_seed_123\\best.pt",
+      "sha256": "ca5263030682aa5e5d51b88da7190e9d4610440a4027890897124ac850375e0b",
+      "episode": 900
+    },
+    {
+      "method": "individual_pair",
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\individual_pair_seed_123\\best.pt",
+      "sha256": "fdd88a7732ef67254d3dacebd3da8d73a62a26d70c722a28fbc78c68846c5d72",
+      "episode": 800
+    },
+    {
+      "method": "target_shuffle",
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\shuffled\\ocpo_seed_123\\best.pt",
+      "sha256": "8e2f1267d4981fc3d82ce6ceb161079a1b3b38cfc9baf35ddcd292a53e2bd4a3",
+      "episode": 100
+    },
+    {
+      "method": "team_vehicle",
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\team_vehicle_seed_456\\best.pt",
+      "sha256": "08926e53104da01d2a4839e35bbf2026762ccc4af51c50c6655c91389d7f290c",
+      "episode": 500
+    },
+    {
+      "method": "individual_pair",
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\individual_pair_seed_456\\best.pt",
+      "sha256": "d5f936a8f8fbcd209e5c0cc89bc6eea20c820d7b1e30ea53c52d1ff112a73fac",
+      "episode": 300
+    },
+    {
+      "method": "target_shuffle",
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\ablation\\shuffled\\ocpo_seed_456\\best.pt",
+      "sha256": "a5172e5f08ccdbc9ce8d37d8c0e8d6952255bbe088c45efdded7f39d20ef8230",
+      "episode": 1000
+    }
+  ],
+  "source_sha256": "c12d24caf7fb0cd0a77371fb6bb667fa51eddd5adb11fd076d396860851aecbc",
+  "data_manifest_sha256": "59908db72906182ccc93faeff23589856cd0041ae25915c6b6a2e9644f59d97c",
+  "reference": "64ddda45fea9625ad9fe6fbfbc2368c40dd8ffbaa5538e7ec55a3ceb3d059f18",
+  "created_at_utc": "2026-10-30T02:13:38.471496+00:00"
+}

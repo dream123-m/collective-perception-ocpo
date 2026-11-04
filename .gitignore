@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+major/cross_scene/results/new_training/

@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-30T00:13:09.278928+00:00",
+  "aggregate": [
+    {
+      "layout": "baseline",
+      "method": "mappo",
+      "n_training_seeds": 3,
+      "reward_mean": 4.7795535155705045,
+      "reward_sample_sd": 0.35619538315921107,
+      "coverage_mean": 0.9566744730679158,
+      "coverage_sample_sd": 0.02136801825631701,
+      "payload_mean": 6.212454212454213,
+      "payload_sample_sd": 0.15923578713808786
+    },
+    {
+      "layout": "baseline",
+      "method": "ocpo",
+      "n_training_seeds": 3,
+      "reward_mean": 4.929982503255209,
+      "reward_sample_sd": 0.43009617058204574,
+      "coverage_mean": 0.9476971116315378,
+      "coverage_sample_sd": 0.021602020455927726,
+      "payload_mean": 6.426373626373627,
+      "payload_sample_sd": 0.09342598376629542
+    },
+    {
+      "layout": "baseline",
+      "method": "naive",
+      "n_training_seeds": 0,
+      "reward_mean": 1.980798363685608,
+      "reward_sample_sd": null,
+      "coverage_mean": 1.0,
+      "coverage_sample_sd": null,
+      "payload_mean": 12.446153846153846,
+      "payload_sample_sd": null
+    },
+    {
+      "layout": "headway",
+      "method": "mappo",
+      "n_training_seeds": 3,
+      "reward_mean": 4.255540064402989,
+      "reward_sample_sd": 0.9248494804396202,
+      "coverage_mean": 0.9297423887587821,
+      "coverage_sample_sd": 0.02419669592479116,
+      "payload_mean": 6.482051282051282,
+      "payload_sample_sd": 0.1043512533513485
+    },
+    {
+      "layout": "headway",
+      "method": "ocpo",
+      "n_training_seeds": 3,
+      "reward_mean": 4.26969499815078,
+      "reward_sample_sd": 0.6379841036534248,
+      "coverage_mean": 0.9246682279469165,
+      "coverage_sample_sd": 0.01062502544013756,
+      "payload_mean": 6.7172161172161164,
+      "payload_sample_sd": 0.15101529488477547
+    },
+    {
+      "layout": "headway",
+      "method": "naive",
+      "n_training_seeds": 0,
+      "reward_mean": 1.5845168828964233,
+      "reward_sample_sd": null,
+      "coverage_mean": 1.0,
+      "coverage_sample_sd": null,
+      "payload_mean": 13.107692307692306,
+      "payload_sample_sd": null
+    }
+  ],
+  "protocol_sha256": "f7ab002b8c8a62e014f161f2d16d5ae5e49fdb7393617c3daeaeba9bb57171ac",
+  "per_seed_sha256": "87ab1afba4c9feed4fd26957775f3093fb55553194d167ea771a76e08154a1c1",
+  "interpretation": "One baseline and one headway geometry, not a statistical sample of headway layouts; policies are not independently retrained."
+}

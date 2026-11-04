@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "density": 50,
+  "penetration": 0.5,
+  "target": 0.95,
+  "seed": 42,
+  "method": "stgs_team_state",
+  "training_episodes": 1500,
+  "selected_episode": 1500,
+  "elapsed_seconds": 288.45002150023356,
+  "checkpoint_sha256": "86734aac6e6802d73daeae1b0d6df1d8147a9fbc79d639541cc1e03b7db42080",
+  "reward": 3.3338876324040547,
+  "coverage": 0.9840892155534481,
+  "payload": 11.428434065934066
+}

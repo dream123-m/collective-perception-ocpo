@@ -1,0 +1,70 @@
+{
+  "created_at_utc": "2026-10-29T16:20:10.136966+00:00",
+  "data_manifest_sha256": "59908db72906182ccc93faeff23589856cd0041ae25915c6b6a2e9644f59d97c",
+  "protocol_sha256": "4a9c418234acc53d3eeb7305254715598ebffb964b5cda89a5fdc73ccfdd92b8",
+  "evaluation_code_sha256": "920bdac3bc87d53b29af162002de0ccf81d75b269697d1d5e0471a72d8c3436d",
+  "evaluation": "32 disjoint held-out conditional layouts, deterministic actors, one fixed fading draw, 7 steps per layout.",
+  "checkpoint_selection": "Highest validation reward per run; frozen before this test.",
+  "models": [
+    {
+      "method": "mappo",
+      "seed": 42,
+      "episode": 1500,
+      "checkpoint": "mappo_seed_42\\best.pt",
+      "checkpoint_sha256": "ff367a403652bf7dc59dc91e16f988be5a6a5fe0fddc4850cefbcecaa0b8b75d",
+      "initial_actor_sha256": "39972aac657cad3a40e8dbfa53577c9bd86ccc93a73b24524c57359dc666a011",
+      "training_csv_sha256": "0701b668d362d348a7a7f69a5833e03372ada9c53d45308d217b513737df48c1",
+      "validation_csv_sha256": "f12eb3a14410d9c5c85a32175b3d3b95ad5429c4a772a4efded2830815f8f125"
+    },
+    {
+      "method": "ocpo",
+      "seed": 42,
+      "episode": 1100,
+      "checkpoint": "ocpo_seed_42\\best.pt",
+      "checkpoint_sha256": "94fc84a8a894edb5cb412a7aec5173617ffe96896335801b8f70f6e279169fff",
+      "initial_actor_sha256": "39972aac657cad3a40e8dbfa53577c9bd86ccc93a73b24524c57359dc666a011",
+      "training_csv_sha256": "71c8d6b19ce988f0e0371a1564590124f68cc9857e034a34158a4b0f49a741d0",
+      "validation_csv_sha256": "1dc4d1690c03098e10769c238a9d4de93ee826fdc3834c28035782ff086eea6b"
+    },
+    {
+      "method": "mappo",
+      "seed": 123,
+      "episode": 100,
+      "checkpoint": "mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "10d6eb8699dbe6ad4089be04adaaceb403eafe98394a95e3c385c52b0702c671",
+      "initial_actor_sha256": "67de64602801335c1132a7852b84b5208fb4fc18086d3be8e09fd5b337b7de92",
+      "training_csv_sha256": "f96dff1d449470dd9ba3f7f24a130e7507b4afcace9e4256725755dd919485b0",
+      "validation_csv_sha256": "211b99651f5a441d4e5b4cd0d06cb4e2d425357d40d663722199813ab7fa34d7"
+    },
+    {
+      "method": "ocpo",
+      "seed": 123,
+      "episode": 500,
+      "checkpoint": "ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "168235db3435505f76065690260b5e2415a00e334a445d2e02e290e1f18b76e2",
+      "initial_actor_sha256": "67de64602801335c1132a7852b84b5208fb4fc18086d3be8e09fd5b337b7de92",
+      "training_csv_sha256": "a71beef899207fcd41a4374540cceadedb69672405071cb95ade5f17500bdd08",
+      "validation_csv_sha256": "87f636d8338a659f1fc361c51862caeda1d403d26f28f8028e8b26b091e4a93f"
+    },
+    {
+      "method": "mappo",
+      "seed": 456,
+      "episode": 300,
+      "checkpoint": "mappo_seed_456\\best.pt",
+      "checkpoint_sha256": "414ce2d4005c654fb90d5d320920526e0a3d299bfbd0a48a141934302da6984c",
+      "initial_actor_sha256": "60f47729394ae45ae12d4e083421618a07be80d6c4c3089680d66576aabd4b67",
+      "training_csv_sha256": "dba704593932c8474c4f3625544ef71bb79c9fd0c0d0547d99b15ab667f7ab34",
+      "validation_csv_sha256": "c11686e64a95e46968b06a5c11d3ed30001054312f849ae40d9295a9c49f0cf4"
+    },
+    {
+      "method": "ocpo",
+      "seed": 456,
+      "episode": 300,
+      "checkpoint": "ocpo_seed_456\\best.pt",
+      "checkpoint_sha256": "f39b1529d7fab8a616cf0848ced4eac761a54cb054612e59570fbbea0ab50390",
+      "initial_actor_sha256": "60f47729394ae45ae12d4e083421618a07be80d6c4c3089680d66576aabd4b67",
+      "training_csv_sha256": "58addf5cc8268e111156f31e67e90c43040f188c1d090b572bce6e0f0e5ff1fb",
+      "validation_csv_sha256": "f7977279a8d67e7cb315c0bf744f8f2dd532030029dcefd009ac54664ab0ac68"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "variant": "conditional_original_layouts",
+  "config": {
+    "episodes": 1500,
+    "episode_steps": 7,
+    "validation_every": 100,
+    "validation_channels_per_layout": 1,
+    "test_channels_per_layout": 1,
+    "gamma": 0.95,
+    "gae_lambda": 0.95,
+    "clip": 0.1,
+    "epochs": 10,
+    "actor_lr": 0.0005,
+    "critic_lr": 0.0005,
+    "entropy": 0.01,
+    "max_grad_norm": 0.5,
+    "actor_hidden": [
+      64,
+      64
+    ],
+    "critic_hidden": [
+      128,
+      128
+    ],
+    "target_coverage": 0.95,
+    "coverage_reward_sigma": 0.04,
+    "cpu_threads": 1,
+    "layouts_per_update": 1,
+    "minibatch_joint_steps": 7,
+    "rollout_end": "truncation_with_bootstrap",
+    "value_normalization": "legacy_unscaled",
+    "fading_mode": "fixed_across_layouts",
+    "fixed_fading_seed": 0
+  },
+  "data_manifest_sha256": "59908db72906182ccc93faeff23589856cd0041ae25915c6b6a2e9644f59d97c",
+  "original_mat_sha256": "176bf1ce4df026f24fd422a6a89b9ca5542d89812a0d8edcebdfa49c736c9ed3",
+  "code_sha256": {
+    "major/cross_scene/data.py": "7ddb30680cf4ff0371aacc220c8c87b2dc64d67bffac37b3a60a8e95475c61eb",
+    "major/cross_scene/environment.py": "43a7a629626f15ea3c0ab6dfdc0a7f3eda67308c6effedd3823a443fb1c136b3",
+    "major/cross_scene/run.py": "c9b6b24534ac454ac4bc98da24dcfe3f8e50b4c0398b6d8782ce00c357202301",
+    "major/model.py": "38f34b3bb13e2b4261816e007c9310a7b599f8e10e1c6da125076259281375c0",
+    "MAPPO/mappo_network.py": "bd43a92e128edee08f765572589c2437f3ad41ee836d719df355f328e6962e25",
+    "major/cross_scene/layout_critic.py": "90f372eb270212167506f3e2faa51ef121eae47a03477b8191104501ead70d08",
+    "major/cross_scene/multi_layout_update.py": "2e1b1521d0bf2a80735c25d84b8aaeb6b0c53e57d10aaf65a1e5eaa446e827ad",
+    "major/cross_scene/truncation_update.py": "2d76258e317ec6430a7298505b0558d1442714d717665dfa77185b288bb9788e",
+    "major/cross_scene/value_scale.py": "4c58f7bffb8469f63deb845387b42ac709297fd43e6566d02567bc5ab2b91a58",
+    "major/cross_scene/layout_only.py": "60d91dee5317d7f546b8ea6310bc555c16206d393042051e234d61804c28cfdb",
+    "major/cross_scene/legacy_layout_experiment.py": "5debdd751f4b066c4b7d254333ed599f051aa2d5e8eea0ff773f14ca274cb2a0",
+    "major/cross_scene/legacy_update_layout.py": "7efe8650fdfc7c60260b8900464059f60c225cc931b74078f11f5bc2d933e5c7"
+  },
+  "methods": [
+    "mappo",
+    "ocpo"
+  ],
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "layouts": "Original candidate/thinning rule conditioned on old lane counts; fixed old CAV lane/rank roles.",
+  "training": "One layout per update, original-style unscaled critic, window-local sample-SD advantages, 7 joint steps and 10 PPO epochs.",
+  "method_difference": "MAPPO individual advantages and vehicle clipping; OCPO team advantage and overlap factor clipping.",
+  "actor": "New layout-compatible observations, 65 independent actors. Not byte-identical to 2026 single-layout model.",
+  "fading": "Corrected unit-mean draw, fixed across layouts and all splits; geometry remains layout dependent.",
+  "selection": "Best 16-layout validation reward; initial model is recorded but not selected.",
+  "final_test": "Not performed by the training runner.",
+  "created_at_utc": "2026-10-29T12:35:00.054810+00:00"
+}

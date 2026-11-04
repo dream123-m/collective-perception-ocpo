@@ -1,0 +1,81 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-30T04:20:22.708506+00:00",
+  "aggregate": [
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "kind": "initialized",
+      "agents": 27,
+      "vehicles": 81,
+      "state_dim": 403,
+      "action_dim": 80,
+      "decision_time_ms_mean": 1.8199791666666667,
+      "decision_time_ms_sample_sd": 0.022230648193053964,
+      "per_cav_time_ms_mean": 0.06740663580246914
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "kind": "initialized",
+      "agents": 41,
+      "vehicles": 71,
+      "state_dim": 353,
+      "action_dim": 70,
+      "decision_time_ms_mean": 2.775688,
+      "decision_time_ms_sample_sd": 0.05295090359946652,
+      "per_cav_time_ms_mean": 0.06769970731707317
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "kind": "initialized",
+      "agents": 65,
+      "vehicles": 122,
+      "state_dim": 608,
+      "action_dim": 121,
+      "decision_time_ms_mean": 4.674774666666667,
+      "decision_time_ms_sample_sd": 0.030208948021791752,
+      "per_cav_time_ms_mean": 0.07191961025641026
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "kind": "trained",
+      "agents": 65,
+      "vehicles": 122,
+      "state_dim": 608,
+      "action_dim": 121,
+      "decision_time_ms_mean": 4.445689333333333,
+      "decision_time_ms_sample_sd": 0.022619276609417354,
+      "per_cav_time_ms_mean": 0.06839522051282051
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "kind": "initialized",
+      "agents": 101,
+      "vehicles": 139,
+      "state_dim": 693,
+      "action_dim": 138,
+      "decision_time_ms_mean": 7.3404058333333335,
+      "decision_time_ms_sample_sd": 0.06727957893434915,
+      "per_cav_time_ms_mean": 0.07267728547854786
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "kind": "initialized",
+      "agents": 107,
+      "vehicles": 170,
+      "state_dim": 848,
+      "action_dim": 169,
+      "decision_time_ms_mean": 8.005994999999999,
+      "decision_time_ms_sample_sd": 0.07058967702327289,
+      "per_cav_time_ms_mean": 0.07482238317757009
+    }
+  ],
+  "protocol_sha256": "265a3edf952d1f76bda4da92081e905b19d273a84f79c3f798f2f3a33c2a3f5b",
+  "samples_sha256": "f9fc19cafae9dcf62d11124c9279392db54ed570528105b49b3c20bef763385c",
+  "interpretation": "Initialized actor timings measure architecture scaling; only the separate 65-CAV reference uses trained weights."
+}

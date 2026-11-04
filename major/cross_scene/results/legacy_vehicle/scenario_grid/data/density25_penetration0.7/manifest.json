@@ -1,0 +1,788 @@
+{
+  "density": 25,
+  "penetration": 0.7,
+  "source": {
+    "file": "MAPPO\\vehicles_density25_penetration0.7.mat",
+    "sha256": "3e061cde3ae1afaa7e522f645d8e514bd91a9e6a69e1ddba951416f7ba6c01bd",
+    "vehicles": 76,
+    "cavs": 55,
+    "lanes": [
+      1.875,
+      5.625,
+      9.375,
+      13.125
+    ],
+    "lane_counts": [
+      13,
+      21,
+      18,
+      24
+    ],
+    "roles": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "split_counts": {
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  "generator_source_sha256": "a4f58dde59c6bd48d9d579b695274dbbe6a9e6890b69a831aff7e0879a094214",
+  "master_seed": 20261030,
+  "generation": "Independent Poisson candidates, sequential 10.2 m thinning, conditional on archived per-lane counts; archived CAV lane/rank roles fixed.",
+  "splits": {
+    "train": [
+      {
+        "scene_id": "train_000",
+        "path": "train/layout_000.mat",
+        "file_sha256": "46406e3ec9318c5f7dd7d6b8fb3d22dc12ab7a4fdec03366a5f1aac875c5508a",
+        "scene_sha256": "e291e91646ea6315d00bd0f73682705bbe6e8f3f262f3853f7eb1ea92a03e482"
+      },
+      {
+        "scene_id": "train_001",
+        "path": "train/layout_001.mat",
+        "file_sha256": "9827962dddf4234353fc7dec5801c60414ce5cb40763c1342797177350a7374e",
+        "scene_sha256": "59f8cdcc96885931663622f27829b54c1d517e588d3834a43e225ac4daa1d1f3"
+      },
+      {
+        "scene_id": "train_002",
+        "path": "train/layout_002.mat",
+        "file_sha256": "1731bfb4cadb3cabdd737af7d5e6c972e25a89975a630ecfdc832a378246fd1f",
+        "scene_sha256": "d6ebee3a8429b32436a394d703dd3768d8daee91dedc30bfd2c74d3e8f082a64"
+      },
+      {
+        "scene_id": "train_003",
+        "path": "train/layout_003.mat",
+        "file_sha256": "2cda9fc1fbe9ae61e9ec04a8f9235f26eba720168bd932736a255109b1611c25",
+        "scene_sha256": "7b96b01d99d45a9569cae042008022bc589873a178352066b80c8b1190f35f25"
+      },
+      {
+        "scene_id": "train_004",
+        "path": "train/layout_004.mat",
+        "file_sha256": "86e33b90372aacc6be5e6de72d8f525402e2987a8d3e9e0b2afd078af72c9193",
+        "scene_sha256": "8a1c0a4068162be8a56f68fb7815d7d926e070564e5dff6c8ffe27fd8fb3df38"
+      },
+      {
+        "scene_id": "train_005",
+        "path": "train/layout_005.mat",
+        "file_sha256": "f66c1709c7992175c20f0b91af7fdedee673f0cdccfc99f43d89c3917ec12ee5",
+        "scene_sha256": "42a980955f59e46d3c025c73388e272a2a796a4258e8a2e7261883480aefc4e3"
+      },
+      {
+        "scene_id": "train_006",
+        "path": "train/layout_006.mat",
+        "file_sha256": "aa8310b688a944ff8126b3e9977607845d042dc4d3dfd98ef46c1ae8a11eef37",
+        "scene_sha256": "a7b65eb67fe2f7d84b5f0f85c48deb0521d20fe8aef27749e02491b5621669b8"
+      },
+      {
+        "scene_id": "train_007",
+        "path": "train/layout_007.mat",
+        "file_sha256": "fd02dad26631562251d8402dbc211c843653f12a00ae34cf63b61eaf2b898ae7",
+        "scene_sha256": "e8383a12540bb59c6889e9e723170ae9cc2b4c5271d0172a3c824ce138165a1a"
+      },
+      {
+        "scene_id": "train_008",
+        "path": "train/layout_008.mat",
+        "file_sha256": "b189580f06c6fb76c8b15e279b07144ae31564ed50ccf0f35b5772b325f695a3",
+        "scene_sha256": "0fd5500eed8f36a7a836959ffc7ad084234aa3b378ace0a8202ab535aa3c97be"
+      },
+      {
+        "scene_id": "train_009",
+        "path": "train/layout_009.mat",
+        "file_sha256": "c5be6d411ca5c61535da6253254d3ebc422ec454c062c23ad82a08366ae7c04a",
+        "scene_sha256": "930ad62f605d79c2acd2525d63603dd94905f379721c2fd8909c3dc19ced85c6"
+      },
+      {
+        "scene_id": "train_010",
+        "path": "train/layout_010.mat",
+        "file_sha256": "3b5d92e1e4012ce23ad8de19ac8997f2eab13335065b9cf5543f5a10f6a2884b",
+        "scene_sha256": "6aa7e0622194ab5e0a8cbc89dad1420cc592569d9334b1b8327aa205f5c27484"
+      },
+      {
+        "scene_id": "train_011",
+        "path": "train/layout_011.mat",
+        "file_sha256": "c67add741dbb03d5b6b74a9e5e1757bb816af5e0a87d86e757fb61261be53a86",
+        "scene_sha256": "c8216dad518a2ac98969ec37fac71053753b07c3a471afc9a893aefdef60d580"
+      },
+      {
+        "scene_id": "train_012",
+        "path": "train/layout_012.mat",
+        "file_sha256": "9ddb527d2cfc5cc4b076f81173cca20a9586299135e66d4eca89cc9136bf5fb2",
+        "scene_sha256": "4ba693380191b642256ed73749e97437aeb1b81c1ef3ae2f621291c56688fbfe"
+      },
+      {
+        "scene_id": "train_013",
+        "path": "train/layout_013.mat",
+        "file_sha256": "c9189be477b1f9a53420bcafe415cb7a54f20b12511d255f8b8affaeccf774f0",
+        "scene_sha256": "58382671deb07e64ef980b59c910fba01a145fd7686eb8830854cb19f8cbb81c"
+      },
+      {
+        "scene_id": "train_014",
+        "path": "train/layout_014.mat",
+        "file_sha256": "5d61c8a32faa7640a81438ca6a05c62fcc58a5261b97d0e98cc3cce774ecae72",
+        "scene_sha256": "4bfe3f6240121bfb238d0416eca2788a9e9003292988f094d525cfb6d1d4783a"
+      },
+      {
+        "scene_id": "train_015",
+        "path": "train/layout_015.mat",
+        "file_sha256": "664be512879d5baec0c46b18f929bf44386fcfbd9520fbbe7130656741c84ae7",
+        "scene_sha256": "55a36332d3d42ebd7188717a9648a26e6103bddfe2cbacbf20613dc20abd162e"
+      },
+      {
+        "scene_id": "train_016",
+        "path": "train/layout_016.mat",
+        "file_sha256": "59f558eaf3a0a642e4df46feee5e1f50c823c0227dd0eacb10f486809c6f8db1",
+        "scene_sha256": "03b1c3071f0fa55a28290a9b353232ca24ff960812943ad53bc054a8907e8804"
+      },
+      {
+        "scene_id": "train_017",
+        "path": "train/layout_017.mat",
+        "file_sha256": "449255cc5ce2b6c81491cf6760eac321ae6ef40d025ff3c135dc6ab6ffaa2d01",
+        "scene_sha256": "219464c2a2b1aa350ab6a77fe9bcdad80913bdea9d34d7d33ef1dc350486750a"
+      },
+      {
+        "scene_id": "train_018",
+        "path": "train/layout_018.mat",
+        "file_sha256": "13f081efaaf1d06d21ab1a75a7e4fd3b489400abeddea79e73a35c503c229ce7",
+        "scene_sha256": "7bd74518b64d76d376499f0ff9d539ce82297585d3cc5dc4ac820a2b671445e6"
+      },
+      {
+        "scene_id": "train_019",
+        "path": "train/layout_019.mat",
+        "file_sha256": "3c5c263f7cdb95402e6341e42bf7305b3d87ffb337538b0edc463d9ec8d2a4a4",
+        "scene_sha256": "fa6b95dffe0634f80ec45bab9951466a738be20987e82fb8d2efab42f88af378"
+      },
+      {
+        "scene_id": "train_020",
+        "path": "train/layout_020.mat",
+        "file_sha256": "d79a3d6ae32964185a77d20312520d7fe97afd6df656e74202a7db806d663c0b",
+        "scene_sha256": "d12e50e3bc9dc6c280c38d676a98ed22b43c188cf790e0d9b776f1f4fd6282ac"
+      },
+      {
+        "scene_id": "train_021",
+        "path": "train/layout_021.mat",
+        "file_sha256": "514c66fac1395a636b7083bf961f4738cfd34d941892f8c1d20e3fee6fdd9f48",
+        "scene_sha256": "a47165c489f734cb7e9d7cd9e030be3c436fda628ed57ecf50ce9c5904580ebe"
+      },
+      {
+        "scene_id": "train_022",
+        "path": "train/layout_022.mat",
+        "file_sha256": "d2abe1d0792388f9062c25df4eb08c5e9c1ba3eaf566d9ab5329631271f8a42c",
+        "scene_sha256": "311d25f466a764d57d5586da968ccc30cb21fc20f3a65a96a996fa6cb53b3b0f"
+      },
+      {
+        "scene_id": "train_023",
+        "path": "train/layout_023.mat",
+        "file_sha256": "f5f7adba2569a00a4bb4595c5bb740bd69d07d194b5cabcae8990d0749f73cea",
+        "scene_sha256": "af462f9bed2126fa5a9b26ca6921d1c5e8d3e9068b7571e912641720d9842b0a"
+      },
+      {
+        "scene_id": "train_024",
+        "path": "train/layout_024.mat",
+        "file_sha256": "53d5aaf21a86acc6bedc71316f754a64710ead916bfef5467e6b66d4927c4e04",
+        "scene_sha256": "0aaec01207bf42ff332a809549243c316ee7e3af5a56ea53ee20410c3528f066"
+      },
+      {
+        "scene_id": "train_025",
+        "path": "train/layout_025.mat",
+        "file_sha256": "8442a2e4077c700f360027cd0238bcdf6a82b2c96f31311718fb515f4670fa8f",
+        "scene_sha256": "b3adda07752c98dc918625b41a65576138a082abab35596c93818ed5da2b237e"
+      },
+      {
+        "scene_id": "train_026",
+        "path": "train/layout_026.mat",
+        "file_sha256": "c5e0cc89a0b21e48afd4996d0cabf4c5cf10b90f58d7682c632509b80e5a50f5",
+        "scene_sha256": "947ca8fbab1aa51c17a6f228dd70ad61bb3276963297a36c30bff3978b838b24"
+      },
+      {
+        "scene_id": "train_027",
+        "path": "train/layout_027.mat",
+        "file_sha256": "647c6497520d17f6e7429c8bba8d4d375aa68ea8e9082eba6cdccaf9f95d0b72",
+        "scene_sha256": "a6bf1838b1d2df9825aa5e536951b7ba50760c0ac15d27dd91511fb02fd72ca7"
+      },
+      {
+        "scene_id": "train_028",
+        "path": "train/layout_028.mat",
+        "file_sha256": "c6dd287861ed4880a6e669c907d2e8165ba6d78787cdbe3c753b8cb8a018580e",
+        "scene_sha256": "9c23610640125b70e6ee48577a5dc836937ca32ffaa015769a3de67c2aaec1ac"
+      },
+      {
+        "scene_id": "train_029",
+        "path": "train/layout_029.mat",
+        "file_sha256": "1e4cbd9a7a56c5a0a357773e0eccfcea7f2c4e3b16d9de782b4a542283b24806",
+        "scene_sha256": "986e1674457020c89ab696ab01eba2b0aa35bcdb35f506a8f434200666c94eaf"
+      },
+      {
+        "scene_id": "train_030",
+        "path": "train/layout_030.mat",
+        "file_sha256": "aec75961dbe47d36bbeb99700e9f8bc4c21b8139fa12c39187d21dc958d21246",
+        "scene_sha256": "440303dac11b760e4f11bd5c2dc88178bf3c61ef8dbcb1f436478f60b4956ae8"
+      },
+      {
+        "scene_id": "train_031",
+        "path": "train/layout_031.mat",
+        "file_sha256": "4d66369458433ce9692d0d815da52f2f3175d026763b14892fa8699e07ce2267",
+        "scene_sha256": "0c703ea956399db76193e0b12f8d310d135e2ce3d339f51d74bf49ad95eb0523"
+      },
+      {
+        "scene_id": "train_032",
+        "path": "train/layout_032.mat",
+        "file_sha256": "efcbd2301f7c1ebc6bb8daa6bffd4baf33cd524dba93fdbf45acc253cdeb908e",
+        "scene_sha256": "7aa843d159cdffc7ea4fc5667c4204dd2ac8f66bf7912151a2345bf5ffacfcd7"
+      },
+      {
+        "scene_id": "train_033",
+        "path": "train/layout_033.mat",
+        "file_sha256": "cc101173f9e3ee11e4a11d7106148f53aa489724cf032886d9c1f8d5b2fd9cf4",
+        "scene_sha256": "4b28a582b79926061f267946c8f0c49e6603090981679c111f4d4e076cec1402"
+      },
+      {
+        "scene_id": "train_034",
+        "path": "train/layout_034.mat",
+        "file_sha256": "41f3734be0997eab88b19aff204a43c56fa8c997bcf10b5d6c2eb48a513e5002",
+        "scene_sha256": "347a8833115d96943c8e062be575c2887ca632e96eef37fa21d60d35d99d9f6f"
+      },
+      {
+        "scene_id": "train_035",
+        "path": "train/layout_035.mat",
+        "file_sha256": "4413141f57b2b02b51c459cd87d20d9558021eeb0403127e0dac5dec1c56b47c",
+        "scene_sha256": "aeaa8b431131db9ce626b48bc067c2da3253a047589cfaf0dc529d42360b0640"
+      },
+      {
+        "scene_id": "train_036",
+        "path": "train/layout_036.mat",
+        "file_sha256": "0e27d79e02e8e4c762179e032bea8fe4df3e48912853690ba62d2730ce23c477",
+        "scene_sha256": "91a8afb8ae147658e82a30af9377539931e6f85dd6ce21f739b59e4fd6b59b99"
+      },
+      {
+        "scene_id": "train_037",
+        "path": "train/layout_037.mat",
+        "file_sha256": "e41ee40cc1ea91028fa2f0719b895ac0e92a251f0927acfe30d612f3312458e2",
+        "scene_sha256": "2a9c4ea9c4c94be9c4fc049a73faf5047a5220b64cb63bc4166b961a99fd38e7"
+      },
+      {
+        "scene_id": "train_038",
+        "path": "train/layout_038.mat",
+        "file_sha256": "ab23676f5415e4efafc289542750a1a16143662abb84684d3fabcaf5d014902d",
+        "scene_sha256": "ccb741d5907c312da969174284684263759f63cd68f6d806347c27f0d7f50761"
+      },
+      {
+        "scene_id": "train_039",
+        "path": "train/layout_039.mat",
+        "file_sha256": "f41d105e7a06ef2d0ccd3c30082e5645e00ee69e7306933fb872ec212b1a7dc1",
+        "scene_sha256": "93ddec156ecbfc64bfeb0e59dc1907046146ec75ed42d3734bb8dc3a3df73e8d"
+      },
+      {
+        "scene_id": "train_040",
+        "path": "train/layout_040.mat",
+        "file_sha256": "b4a6196607cc52aa232badbff461596fc2f7053ac8a14e1305220bfb01216a39",
+        "scene_sha256": "cbaedca64842cc985ddc0718043cca7a2958d07ff2008463c5af34260c59384b"
+      },
+      {
+        "scene_id": "train_041",
+        "path": "train/layout_041.mat",
+        "file_sha256": "32134ed5f7e94fa509062d6286c3c314db9230e2698643b9c0f87ea709a585af",
+        "scene_sha256": "7327684433833c4a7fe57a074cef3ef3ffc2383264e5bb29de28d8adf49732c5"
+      },
+      {
+        "scene_id": "train_042",
+        "path": "train/layout_042.mat",
+        "file_sha256": "ec849937e8f32296cd9ac9cf7f58165a4b79af4e8ff451acc6f11407319bdbbe",
+        "scene_sha256": "9ee52e19407dbb0ff3fb8dca7e547fbd54ffa390e445143af4e6215766211c52"
+      },
+      {
+        "scene_id": "train_043",
+        "path": "train/layout_043.mat",
+        "file_sha256": "7c42528e04505bb9974abd64a10cbdb43f81ccb1ad3449180846310f017949b0",
+        "scene_sha256": "606cdf098dbe552120242622f8c072dc483ab6bbf3c63fb837d1018ab6020e1f"
+      },
+      {
+        "scene_id": "train_044",
+        "path": "train/layout_044.mat",
+        "file_sha256": "0e6c82921a9e44a5fde1956e9030bb44f8d8e3849f2a561488bfdc0d545c56e5",
+        "scene_sha256": "dc060caa0b9941765066edd7b5e97d9a8624749570070cb2becf41e1e61db3e0"
+      },
+      {
+        "scene_id": "train_045",
+        "path": "train/layout_045.mat",
+        "file_sha256": "081436b59ec6bda1a7ffe28c02c68c34e4595e539fb1b13f409540e5546698cd",
+        "scene_sha256": "2da3cdeae5e5eb310ef39215d19d92fa8f8a7fbc7406546976b7b40df3ae0fd5"
+      },
+      {
+        "scene_id": "train_046",
+        "path": "train/layout_046.mat",
+        "file_sha256": "8db7149f90a692a9e77de90f3bead9e9b76ed8c1369148191d88c8ac0078056e",
+        "scene_sha256": "5e79455bbc9270a872f492bfa1288ef347390f4ad90cfa84c99d07737eef78ea"
+      },
+      {
+        "scene_id": "train_047",
+        "path": "train/layout_047.mat",
+        "file_sha256": "0043c8f09f1df7b98b4e68e7102992b48378002b4be320ac7c0521d3abe0bb8b",
+        "scene_sha256": "4657ea482baf91e2871a554536045e04062bc4fb0bb944240bbd8ff52f70c7c0"
+      },
+      {
+        "scene_id": "train_048",
+        "path": "train/layout_048.mat",
+        "file_sha256": "bf97dec5fc2c40044b771c9fdb52b7e5911bc92ff4d163246e0bf1ddbfb584f0",
+        "scene_sha256": "db15e24a13455e5dc8307ee91f198c1fb3cab3c3ce861b6a8d6f52bf1c276a61"
+      },
+      {
+        "scene_id": "train_049",
+        "path": "train/layout_049.mat",
+        "file_sha256": "2c45a26ed4d08e3b0861b5b0032407aa88e05fce8ad42d4c045022d36debf6f2",
+        "scene_sha256": "31405bfc914c2139bca2ae5364e42eefd02d76e2670c8dc47229f418a20aa402"
+      },
+      {
+        "scene_id": "train_050",
+        "path": "train/layout_050.mat",
+        "file_sha256": "3a5dca3c0ec4fb5cb10625e5e8a7b967249051459202d71dfef2d77312a24edb",
+        "scene_sha256": "42bfad3b276986f774e436411d0bd0091ffea76713296ab00a7b45689a752fab"
+      },
+      {
+        "scene_id": "train_051",
+        "path": "train/layout_051.mat",
+        "file_sha256": "2fcd6cc525ac9294d983afa1e60f5ab660e583bd8e507ab219ba82903099f995",
+        "scene_sha256": "d031879bb6a2980ca23de38f482cde4daf0249648be4ef1b64e7584486df7b0c"
+      },
+      {
+        "scene_id": "train_052",
+        "path": "train/layout_052.mat",
+        "file_sha256": "34d190f4a7ee6ab4db581f37d83b1add1e5e45edea8d665f6a23d66e2b5dc0c4",
+        "scene_sha256": "8344a87775546bdcc8b09cdfed90b059f3c9448a4f1be5bc7150393fb7e30cea"
+      },
+      {
+        "scene_id": "train_053",
+        "path": "train/layout_053.mat",
+        "file_sha256": "2fad97658117105ba805790d4a610ca25aef60363ed7d2888bac459bc9b01d7d",
+        "scene_sha256": "496ff1d7b231a3aa669daeaf8f2f0e2bd52ffd0dd02855bb58b17d20a8c69d6d"
+      },
+      {
+        "scene_id": "train_054",
+        "path": "train/layout_054.mat",
+        "file_sha256": "b8f6eddb43cd61bd0c01ed47b4b43ca94d2afb73b331036452cf684d37baefac",
+        "scene_sha256": "5a5701f0b20809eaf018eb2b142c8f4cdab20c603ba1813e945a962f4c05ac18"
+      },
+      {
+        "scene_id": "train_055",
+        "path": "train/layout_055.mat",
+        "file_sha256": "a5d8c0aef97512ccca6248030c244a8883e6bfd162343207742e0d0380d5764a",
+        "scene_sha256": "1155690885b98fd1c0805014f8ab68a124e837c3dda7a4ec79936812765dfbea"
+      },
+      {
+        "scene_id": "train_056",
+        "path": "train/layout_056.mat",
+        "file_sha256": "b3786aa924948312ac96cbf962852c5c974bd60e6186c5c52f90ea5d817a5237",
+        "scene_sha256": "77fa0b5b802bd19d88742ea9d758595e77c2cb0b624f198601e0f754a1c1b388"
+      },
+      {
+        "scene_id": "train_057",
+        "path": "train/layout_057.mat",
+        "file_sha256": "bfdcf3e12ab132f4cc8d58bbaabe33335af1ed040ffb6f5177de940e8534cce9",
+        "scene_sha256": "8b4c8c54284103fc8f11de32802cbe61586645030fc31000a8e0d4e9408a383c"
+      },
+      {
+        "scene_id": "train_058",
+        "path": "train/layout_058.mat",
+        "file_sha256": "99db237fcfb5d86daddd13a2db88b8e1fac271bc2b8ab32b327959795fd3493b",
+        "scene_sha256": "71b288a242717cf7a8b44bcf9eb3fdba291f935fa421398b92f4ac53f006fd06"
+      },
+      {
+        "scene_id": "train_059",
+        "path": "train/layout_059.mat",
+        "file_sha256": "fa07ee8106b9c0517d0cc9aec2e881aea66ea8e8ab8031c160aa2024fc119ef8",
+        "scene_sha256": "fe01781fd0d2563389bb2301cb6cf5adafeaa87b510361d71639ad47b2088de1"
+      },
+      {
+        "scene_id": "train_060",
+        "path": "train/layout_060.mat",
+        "file_sha256": "513ed63e48cbaeda70717cd0ce6d03d2d770131c41708eab898f2c08f8939c2a",
+        "scene_sha256": "ed333981186f93ab14bfe36aa5fc2a6cbb3c4842d00ffe98dfd2850655e65685"
+      },
+      {
+        "scene_id": "train_061",
+        "path": "train/layout_061.mat",
+        "file_sha256": "ec1526181fdbc90202cf1f4521ccf3e102d9835ac85183e84fe472a64f485ef9",
+        "scene_sha256": "537c94255935ab4e93a49d41ee9dd663e679e82b6db11e5f7c4549298907b81d"
+      },
+      {
+        "scene_id": "train_062",
+        "path": "train/layout_062.mat",
+        "file_sha256": "825eb3f45c60991e3db81b4958de8f2e39491b7eed3fa2a2eb5193cb668a67a0",
+        "scene_sha256": "086ccc92874d0e3c6b1d4e2c21e61f677463c89ae90d061731dac435d5cc9de2"
+      },
+      {
+        "scene_id": "train_063",
+        "path": "train/layout_063.mat",
+        "file_sha256": "d2f05f2a2167c394e014553784c46262ea1c66c37cab7216ad5b3af5de9b94a6",
+        "scene_sha256": "fd90952dda68b9f2748fc66a7858db6ef8265807dff135714a9a4d46241af180"
+      }
+    ],
+    "validation": [
+      {
+        "scene_id": "validation_000",
+        "path": "validation/layout_000.mat",
+        "file_sha256": "21cb86905f9f47fcf2bd4851c1304c45752e4551ef9615afe7f890cf4689582d",
+        "scene_sha256": "ad3385a7545203feed1e2b4ec873bc9ae0b8a5865281584a546c811a7268d205"
+      },
+      {
+        "scene_id": "validation_001",
+        "path": "validation/layout_001.mat",
+        "file_sha256": "eb78ab5a430ec176ff42c5e2dfe078c0e350923d7a8e57bb514d2e717c1aea78",
+        "scene_sha256": "e576491b09191d3403591e43b5d0d0bf3d64ca75a2feace81eef9c7986cb8ece"
+      },
+      {
+        "scene_id": "validation_002",
+        "path": "validation/layout_002.mat",
+        "file_sha256": "37ae42cf388d14ebc12d359533bc6b3d240cd79f1df3e5c5e0fbb7169de24f00",
+        "scene_sha256": "7329b8fc958a25d8ae2fbf790769b1ff638f107c690b03c655d921de3eb127f7"
+      },
+      {
+        "scene_id": "validation_003",
+        "path": "validation/layout_003.mat",
+        "file_sha256": "53bc03a6c9b5274d8bb3f03f628736696dc0c4a88b01a5a398cd6094356c17bd",
+        "scene_sha256": "f2c94a6a2428781369cfff164488176ae742f06ae9c165fd491b85301b093c27"
+      },
+      {
+        "scene_id": "validation_004",
+        "path": "validation/layout_004.mat",
+        "file_sha256": "f98ac0460629525c970e3904adb3e55ceef5dbb44749c139cc3c006f667f51ce",
+        "scene_sha256": "36979553bbef3a6b7623fb032db00295fc8f1c152f252eeb5187bba2d345a213"
+      },
+      {
+        "scene_id": "validation_005",
+        "path": "validation/layout_005.mat",
+        "file_sha256": "6f9db78b9c41189efe5fa063893491c2df3ac11ddf593bab950e05c6cc148098",
+        "scene_sha256": "42232d2cbe37c4cd53c28e4f609bff416f99a272fb48bfa514ca489998d4488e"
+      },
+      {
+        "scene_id": "validation_006",
+        "path": "validation/layout_006.mat",
+        "file_sha256": "5bf857587e75125bb83b858a15680450511448e42d8a02b1cbc62b815f5bbfbc",
+        "scene_sha256": "6a5ba778ef0205ec6b4741a82f271c2815e81e2280d6d4e5508496658e0df9fe"
+      },
+      {
+        "scene_id": "validation_007",
+        "path": "validation/layout_007.mat",
+        "file_sha256": "64dc04c1efc323fbce239713179cba4840c3ca1937383bb518300a014f960914",
+        "scene_sha256": "d6da9757139a42ae6c73360f4cdf1a0e76bcb35a932e24f716602cda974d61a1"
+      },
+      {
+        "scene_id": "validation_008",
+        "path": "validation/layout_008.mat",
+        "file_sha256": "e203715301dc70a3a743768b6a5332e3543046db6fe4874c260fa3d8000cafd8",
+        "scene_sha256": "8e27b46baff2899c1cde6e887b53a89b747b2f202304736d423370f7b0872b0a"
+      },
+      {
+        "scene_id": "validation_009",
+        "path": "validation/layout_009.mat",
+        "file_sha256": "0f32b2aef7bab7e00f979c11a7f540f2803b788b9688fd5f306a6ff3268cf82e",
+        "scene_sha256": "1a7b32a3b458e77d795971450c5763b34b792fe066e55279dfc669b65109b6dc"
+      },
+      {
+        "scene_id": "validation_010",
+        "path": "validation/layout_010.mat",
+        "file_sha256": "81019d8a86de49d3f6f3f06dd75f52cdd4acb433a4b1aaccc1cb1e75858af96c",
+        "scene_sha256": "5b80f31795009bbc496dabff05900dd3adec408648f63cee29a2e1293cb19b0c"
+      },
+      {
+        "scene_id": "validation_011",
+        "path": "validation/layout_011.mat",
+        "file_sha256": "8fd425a9dea2bdd6ace98525dead0f0ff8b901fc256de9f804a314734115f870",
+        "scene_sha256": "f400d7ac4b4d2814c79fb61229f99c2d3bae872a40b27da5dccc955d508414b7"
+      },
+      {
+        "scene_id": "validation_012",
+        "path": "validation/layout_012.mat",
+        "file_sha256": "e939476effaafda66ab0b90b43c5d618c6554dd9c6fcfd3e8584973e8bcd905e",
+        "scene_sha256": "1a970815e6627e35e1acc6b5e9dc1db897cfbe335999d75b7df223f599d91245"
+      },
+      {
+        "scene_id": "validation_013",
+        "path": "validation/layout_013.mat",
+        "file_sha256": "bedbbb7d688c73ba2c563adadf07a7de11074900510b4bde1d5e6be3b456eb1a",
+        "scene_sha256": "634d70acfa6ad4b68f8d1c550485353851fea867ad4f4261825281380865451f"
+      },
+      {
+        "scene_id": "validation_014",
+        "path": "validation/layout_014.mat",
+        "file_sha256": "41412a037c41f2d86428f1fbef3bfefd0f7f655f0e20c8dde80c7e817bc94210",
+        "scene_sha256": "81d93ec8d502dbca78a1304e16fdcd245ed03b40c184b472113bb890b76e77b4"
+      },
+      {
+        "scene_id": "validation_015",
+        "path": "validation/layout_015.mat",
+        "file_sha256": "f016b8d491fcaadc7ec17dfe6f25ed20d49ef3bf93e7e75aab3aa2f5784303dc",
+        "scene_sha256": "3d8bcaeb7be83d7461c5ec12509b724295ded1d630283474964f51be3001494f"
+      }
+    ],
+    "test": [
+      {
+        "scene_id": "test_000",
+        "path": "test/layout_000.mat",
+        "file_sha256": "9c86f9adf9286e8de25180069bf706eea753fd73a133fc8e162df06b4fec869b",
+        "scene_sha256": "dbd80bf17f6a86d496f903794748d92ff27a277cc1e24c8159e1eb4361b59c8f"
+      },
+      {
+        "scene_id": "test_001",
+        "path": "test/layout_001.mat",
+        "file_sha256": "4f7d4a02672f8de429683ad0cc702910658b9a19a71e99eed8568ed0a37a13ac",
+        "scene_sha256": "1199f0f9090425e5bf98d919bc17caba9034556f00aa6e0b6e80451390b373bc"
+      },
+      {
+        "scene_id": "test_002",
+        "path": "test/layout_002.mat",
+        "file_sha256": "edc766b05377f9bca72165492188486fb84e364ad948e5b1127d3878c73ac37d",
+        "scene_sha256": "b396772d997ca85fe5cf5d2e637dae13a65877c1659e1a8f7861ec832bbe0fdf"
+      },
+      {
+        "scene_id": "test_003",
+        "path": "test/layout_003.mat",
+        "file_sha256": "b863c6f57725dc4f29dce2a43d5ffe9293e7462da4df68d57d95526968a53e60",
+        "scene_sha256": "ad67d83e06c0bcd0bbb46eef1a797915847da7f36cd7c5e0fa894ec8e351e361"
+      },
+      {
+        "scene_id": "test_004",
+        "path": "test/layout_004.mat",
+        "file_sha256": "f74e51a885ee82f028526dd15f970ace42d690979b4a1c3c28671e1e18b90879",
+        "scene_sha256": "6c5cece337b0cf7f0628db27fcbda88ff6f9a6354b765d0b29d8fbbac2514f15"
+      },
+      {
+        "scene_id": "test_005",
+        "path": "test/layout_005.mat",
+        "file_sha256": "6b21edf4be14785060984a3d999a9a6d078ffccfb59ef895732dadc96ffc5dda",
+        "scene_sha256": "0912865ee95d7a29371182be5c89e789e79bf2455912ed89162a76854a8c86f2"
+      },
+      {
+        "scene_id": "test_006",
+        "path": "test/layout_006.mat",
+        "file_sha256": "e77eadf1e74be42bb3c64215fdd2582ea58a37f1972fc37d3246e22e9a1dbb6f",
+        "scene_sha256": "c181982404055e7a2f2199006e8d5ce6cff507e0bc58811564dade8d2521a0d6"
+      },
+      {
+        "scene_id": "test_007",
+        "path": "test/layout_007.mat",
+        "file_sha256": "3a972d775bbe8a0b09ad3cf18b414828267ad43e98c32d7a9b230c757e11cd3e",
+        "scene_sha256": "f4c9f009f49b56a7cfbdbe39d9fca875a7a2e2bf4214778b250e1bf063ce5067"
+      },
+      {
+        "scene_id": "test_008",
+        "path": "test/layout_008.mat",
+        "file_sha256": "da091cb1cbb74ef7844c182ef06525e37a1bf48fb00d66e84c80ba88fbf18373",
+        "scene_sha256": "fd09529f0251e0e871c2aad9c4aa04681bf2b30fb4f8675585dc01f1bc50ecfb"
+      },
+      {
+        "scene_id": "test_009",
+        "path": "test/layout_009.mat",
+        "file_sha256": "f3b21224bdae4dd5217b1a2d793ed6d2dede4394668ed18897cccb64a702b436",
+        "scene_sha256": "4ab6cdc6e599f011340fe4e02437e1f52bb0ea99e83b098dddcda3e165f11c1c"
+      },
+      {
+        "scene_id": "test_010",
+        "path": "test/layout_010.mat",
+        "file_sha256": "af93ba90e4b37a700233bf1bac1afc803d88a4fe16db78b356c8c27c889288a7",
+        "scene_sha256": "9b7a88ff71d7c780577c2a442eef39d3e7f3459624778f4aa007ab07cfe531ef"
+      },
+      {
+        "scene_id": "test_011",
+        "path": "test/layout_011.mat",
+        "file_sha256": "09b5153a66a3047acfc77375f9651ebaf8ba25b24cb7c679e1a1c7bd6189c61b",
+        "scene_sha256": "1376e6d41591b8ad773acd4acd4cd15aefb50ce5087114a16ac2eecdfd4758bb"
+      },
+      {
+        "scene_id": "test_012",
+        "path": "test/layout_012.mat",
+        "file_sha256": "01d2066106db4204ed4f1013e64cdfa06e35089b33d0c1d6ef155e3952e26fe4",
+        "scene_sha256": "4d8fdc5015c88870d4f447130c847c2a4e631a6514e2696ac3d378bfe60df90b"
+      },
+      {
+        "scene_id": "test_013",
+        "path": "test/layout_013.mat",
+        "file_sha256": "9951dd35614bcf9780893b629fdd938614464850271b5dbc2194766771c74213",
+        "scene_sha256": "d8789e24858c29f9245908d00578ae0fc6fa9f43f6ca021541dac68e2ec35df6"
+      },
+      {
+        "scene_id": "test_014",
+        "path": "test/layout_014.mat",
+        "file_sha256": "511203d47a9a664631794846b28c27404c4a2d752118f30236edfb66b34aaf02",
+        "scene_sha256": "8284533ff04c9b3114a9059bad9bca5b0f8e7abb3c69dd2cbfc2257671c246fe"
+      },
+      {
+        "scene_id": "test_015",
+        "path": "test/layout_015.mat",
+        "file_sha256": "d40958da71a8cfa5ddc8b879b59c326ac8456b51f328255d419ffef762b30d0b",
+        "scene_sha256": "b765b6e0e2fdbd8af6f9150a6402f979bd0e16c40a0e9bce66f0aba68f32bf40"
+      },
+      {
+        "scene_id": "test_016",
+        "path": "test/layout_016.mat",
+        "file_sha256": "0925a534084ab031b5239d59813ca21ba6197a0782dd5f3338e4bb75982bf31a",
+        "scene_sha256": "b4b2b832ff729955871a58882441809c10c712e51b565b3d5372fd648a164a43"
+      },
+      {
+        "scene_id": "test_017",
+        "path": "test/layout_017.mat",
+        "file_sha256": "531dc036460ef5cd4febac9a0089e42a13e899d3686055b2bd24e450b435bb4b",
+        "scene_sha256": "218e487f4151a511099f0c1ab252c010b0c7c91f3480fc81a6d281a357daeb9d"
+      },
+      {
+        "scene_id": "test_018",
+        "path": "test/layout_018.mat",
+        "file_sha256": "4021c33bc7baeb6aa54959192e2158392b98233f98d63dec3f0fd0dc55370aef",
+        "scene_sha256": "ca711d6525b5a70bcc5918be053d0f6a05168ef7e615657566d854c156efa35a"
+      },
+      {
+        "scene_id": "test_019",
+        "path": "test/layout_019.mat",
+        "file_sha256": "97bc47c6458babde1f35ffd46126365f9a966fa445df4d027e1e6539bdf79764",
+        "scene_sha256": "96d207f68499b69b0244650f57e483a194c7f45216109ddd5ea2ce8c5496b92e"
+      },
+      {
+        "scene_id": "test_020",
+        "path": "test/layout_020.mat",
+        "file_sha256": "52eb1eaa0235b0db664151c393fe55a89d466b52e7e9fe2da56366bc7526513a",
+        "scene_sha256": "7ed6f985eceeda2d1814b51a612de6c670136f3e8b001de09837780fb5261b02"
+      },
+      {
+        "scene_id": "test_021",
+        "path": "test/layout_021.mat",
+        "file_sha256": "5d11acb14ec45fdc556d83e6e1f669b4c952bcb4e068b8d3cf9a96883b768651",
+        "scene_sha256": "8c05a7943bd7bd5dd9da7f89e29dab40cb183920e51e5d5d3836b89ca5f2f3d8"
+      },
+      {
+        "scene_id": "test_022",
+        "path": "test/layout_022.mat",
+        "file_sha256": "7eb665f6074b793ab79ec5244aae77b265407c7607479908a4e543037b8d3564",
+        "scene_sha256": "0e430bed6758daafa638d9c34b0697f4b22df880cd69a5c5c95ffe5517950679"
+      },
+      {
+        "scene_id": "test_023",
+        "path": "test/layout_023.mat",
+        "file_sha256": "c0b9ee4d73518a60e5289eecaba91dc215cc31cf70a79743e463df0498987342",
+        "scene_sha256": "edfec5f2a5446732b3e5e5998fcef732932e9780754625b9ec558dbab8c1b7c7"
+      },
+      {
+        "scene_id": "test_024",
+        "path": "test/layout_024.mat",
+        "file_sha256": "56cc2d7b0c1cdfc45598f3097433a81fd4567b78e39cc8fa259f70eb062743ed",
+        "scene_sha256": "987804a737d21ec30f92469eb9526eb6a9554ad57d877d7b3cca51ba89b73faa"
+      },
+      {
+        "scene_id": "test_025",
+        "path": "test/layout_025.mat",
+        "file_sha256": "1a7dec29ad6e357d1797f5241fc72d30900faccf6259c61a9a8882d92555def8",
+        "scene_sha256": "d74b109b26125d116cc80028d88de198eaa827f6ee463411bc3f1d4b0e912369"
+      },
+      {
+        "scene_id": "test_026",
+        "path": "test/layout_026.mat",
+        "file_sha256": "dbb3d6fe2ba71ebeae431c8acfd2dad1937dcb39e0057776a4a3397b36dc2c59",
+        "scene_sha256": "0c1fd043847ec30c6ce5cd0c3ebfdfad92fa26c2c4b30f44b53b7d7be81cc811"
+      },
+      {
+        "scene_id": "test_027",
+        "path": "test/layout_027.mat",
+        "file_sha256": "d7ae322a625742cbab7c43cdb9c56125a60be531fbd4d4fe342dec608013c630",
+        "scene_sha256": "983457201973b7c26e82e1e9d3b3c61e2e53bff831e0858fd25d05ea0c2e2821"
+      },
+      {
+        "scene_id": "test_028",
+        "path": "test/layout_028.mat",
+        "file_sha256": "1fa2c5824f8f58cecf5ed7f1b53f91197dc792866a7f01132e7339be6b0cd186",
+        "scene_sha256": "a53d7a86ddde597fe2ea9063660022d82a3592b94d4c27b16bdbf5ec69c34bc5"
+      },
+      {
+        "scene_id": "test_029",
+        "path": "test/layout_029.mat",
+        "file_sha256": "ff02448582307589f345111ea31d54c8755d03a74dc0d913155ac5d6b8ba7153",
+        "scene_sha256": "3cc10aec999bdc4068885d0e1c2bf6948015c1852ec7f578771f3e00d60a74d1"
+      },
+      {
+        "scene_id": "test_030",
+        "path": "test/layout_030.mat",
+        "file_sha256": "7f4258601db63d57b824b40922ad7eb5043a1b0ec8491616efb1cc6f8a7c5115",
+        "scene_sha256": "b11707fdc55a50bf11c67c345be426d1923c3040289b25cb404c3584ab455cc3"
+      },
+      {
+        "scene_id": "test_031",
+        "path": "test/layout_031.mat",
+        "file_sha256": "d6f6b950bb7f153261f2de1130740178a504ea008b393738e208fc345d1440ed",
+        "scene_sha256": "5a0d8e41b130484dc3eb2a3dc6aff7452f902ab356e2376155f006ba3be69892"
+      }
+    ]
+  }
+}

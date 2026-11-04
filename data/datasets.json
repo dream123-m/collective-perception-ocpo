@@ -1,0 +1,56 @@
+[
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/data/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density25_penetration0.3/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density25_penetration0.5/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density25_penetration0.7/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density50_penetration0.3/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density50_penetration0.7/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density75_penetration0.3/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density75_penetration0.5/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  {
+    "path": "major/cross_scene/results/legacy_vehicle/scenario_grid/data/density75_penetration0.7/manifest.json",
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  }
+]

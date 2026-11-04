@@ -1,0 +1,1380 @@
+{
+  "schema_version": 1,
+  "original_mat_sha256": "176bf1ce4df026f24fd422a6a89b9ca5542d89812a0d8edcebdfa49c736c9ed3",
+  "generator_source_sha256": "5debdd751f4b066c4b7d254333ed599f051aa2d5e8eea0ff773f14ca274cb2a0",
+  "original_mat": "MAPPO/vehicles_density50_penetration0.5.mat",
+  "master_seed": 20261029,
+  "counts": {
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  "generator": "Independent Poisson candidates of mean 50 per lane; uniform positions; sequential 10.2 m hard-core thinning.",
+  "conditioning": "Retain only draws with per-lane counts [34,24,34,30]; keep original CAV lane/rank labels. Conditional, not unconditional, original process.",
+  "source_lane_counts": [
+    34,
+    24,
+    34,
+    30
+  ],
+  "source_lane_cav_counts": [
+    20,
+    15,
+    18,
+    12
+  ],
+  "geometry": "Original road and vehicle dimensions; LOS recalculated with self excluded.",
+  "split_semantics": "Independent per-layout RNG seeds; no complete scene reused across splits.",
+  "splits": {
+    "train": [
+      {
+        "scene_id": "train_000",
+        "path": "train/layout_000.mat",
+        "file_sha256": "4b62c2d2608fc13035932ebcb9cbcf37ac9f67ab6e4844b96608647a22238374",
+        "scene_sha256": "90a757c4bdb37748da0f790687dcf103484ae534ced42c0d96aeb5f1d396bd9a",
+        "rejection_attempts": [
+          15,
+          34,
+          5,
+          28
+        ]
+      },
+      {
+        "scene_id": "train_001",
+        "path": "train/layout_001.mat",
+        "file_sha256": "80676c57da741506458269162f4b748623cd08831ae3902a214ed602ed2a1c04",
+        "scene_sha256": "5248c7354e3d65251f8a5bceb8015d2c9159f1d1f6534483c02d3a624b5cc2f1",
+        "rejection_attempts": [
+          3,
+          308,
+          6,
+          11
+        ]
+      },
+      {
+        "scene_id": "train_002",
+        "path": "train/layout_002.mat",
+        "file_sha256": "a3f46dee592adad69061d7b08c4a7e8d6d66987246c0d251f710ae63f74461ab",
+        "scene_sha256": "8d6a70a0fdbb26af70456d9d8951a95f415dd320d15edb861b99a90ee232630c",
+        "rejection_attempts": [
+          48,
+          776,
+          1,
+          19
+        ]
+      },
+      {
+        "scene_id": "train_003",
+        "path": "train/layout_003.mat",
+        "file_sha256": "d547550456ec140888f18d596991443d6b2500daeeb16bf1468616915d485b5d",
+        "scene_sha256": "a88312864b48090b63e912ff1da5becfc94c9551b6baf3cb52e7d65ef3db5826",
+        "rejection_attempts": [
+          6,
+          193,
+          9,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_004",
+        "path": "train/layout_004.mat",
+        "file_sha256": "021e9401cc11a5a40ae6b69283fa9dbf415a328222646aaaccce2e0738c25cf4",
+        "scene_sha256": "2e60b438472eed0cbb256e9507ded0814aa2802804990c01b22552ca1c2c7773",
+        "rejection_attempts": [
+          2,
+          89,
+          5,
+          4
+        ]
+      },
+      {
+        "scene_id": "train_005",
+        "path": "train/layout_005.mat",
+        "file_sha256": "84fa8e91d3657cebc62efd5b6929d2d8f8710087b7359a404e1dab17220e80cd",
+        "scene_sha256": "0747a64e44d0d5358deebe4eac4136377714f914d466397bed7828fe9a2bc5d1",
+        "rejection_attempts": [
+          3,
+          660,
+          8,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_006",
+        "path": "train/layout_006.mat",
+        "file_sha256": "151b018de6a93207c2690a4b2dbc8987844960d6e7e6a0caa04465d865cd1ba0",
+        "scene_sha256": "b0f5f2f0969bbff614f6881a84472c07a6b64a048d8fdde2e7cc74aa1a90b148",
+        "rejection_attempts": [
+          14,
+          55,
+          10,
+          12
+        ]
+      },
+      {
+        "scene_id": "train_007",
+        "path": "train/layout_007.mat",
+        "file_sha256": "43a80314cbeac53bade10515ace80467f6dbd6628873abf6cf8ff0e273cc7a15",
+        "scene_sha256": "00d1dea59431ac0c37b3e191cfd40ba0d76b9d9e4c9c81a0994131c15bae8827",
+        "rejection_attempts": [
+          2,
+          219,
+          5,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_008",
+        "path": "train/layout_008.mat",
+        "file_sha256": "8d4af20869cd09d05abcdafad4a03c5fe0cca977bbe4cac1e94ed04024c1a3b9",
+        "scene_sha256": "b8afb0603467179688a5dbe37709ed9662580aedde7bdf55af6c70b69c40beb5",
+        "rejection_attempts": [
+          1,
+          63,
+          2,
+          23
+        ]
+      },
+      {
+        "scene_id": "train_009",
+        "path": "train/layout_009.mat",
+        "file_sha256": "d98b6c93cec868bf6a5bfb0d3d89a6133dcec1c59e5dfc101390fd16611c1f6b",
+        "scene_sha256": "44dfa85d5a167ecfd74d79bd4c22407701a661e0ee515a1b2bb7f08fdda09e86",
+        "rejection_attempts": [
+          15,
+          159,
+          9,
+          4
+        ]
+      },
+      {
+        "scene_id": "train_010",
+        "path": "train/layout_010.mat",
+        "file_sha256": "6d7ae7bf075b28e8ccb226ae4c4cacc1b3c2eaf990d37d64e973f90d8c882faf",
+        "scene_sha256": "f303e90ce1d5063c1d1b07c7c801214aebe4146d7bf111f2e594de9f0ec29db4",
+        "rejection_attempts": [
+          2,
+          7,
+          3,
+          4
+        ]
+      },
+      {
+        "scene_id": "train_011",
+        "path": "train/layout_011.mat",
+        "file_sha256": "fbb0c6bded711c2dd34332ceb9843fa48cb93d56da99b624f4106c9a99882201",
+        "scene_sha256": "d02b967420899694a48c88b0800b58e07dd5ffe8ce3d8864992e535186a5be06",
+        "rejection_attempts": [
+          10,
+          133,
+          24,
+          53
+        ]
+      },
+      {
+        "scene_id": "train_012",
+        "path": "train/layout_012.mat",
+        "file_sha256": "ed1e2a6fba02ef30322e53563b0043b3e4138e8fad26aa672a3082adaae19cb4",
+        "scene_sha256": "52c424894680edf8d02d73d4cf06c91a4f14bd9a3807f253516932157e0acd1d",
+        "rejection_attempts": [
+          4,
+          237,
+          9,
+          11
+        ]
+      },
+      {
+        "scene_id": "train_013",
+        "path": "train/layout_013.mat",
+        "file_sha256": "58b5aaf0a1c692f7595b7c2d08ab60e28ed0ff10a03d2f495a6af98b82dd9ae2",
+        "scene_sha256": "5afe31793b7f99351f3bb9cc87646d7ab994340df774d465809e22eee95bbf90",
+        "rejection_attempts": [
+          13,
+          38,
+          4,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_014",
+        "path": "train/layout_014.mat",
+        "file_sha256": "d332cfc8c27ecd7f1d5b3d59be903c37201c1aa600012c0f19f70deca1b8c289",
+        "scene_sha256": "62a4da8e1b8d968479dd85841455d1eae6035d0804abceead46cdd783ef7f853",
+        "rejection_attempts": [
+          7,
+          114,
+          10,
+          1
+        ]
+      },
+      {
+        "scene_id": "train_015",
+        "path": "train/layout_015.mat",
+        "file_sha256": "597fdff40b2febc4c960ae9335f81814e1f9f7c514b1d1d1a80a9aac079e9219",
+        "scene_sha256": "3c899cb8de8ecfcb118140f20b739c057e1d5e45cad40d6e218d9b5024da666e",
+        "rejection_attempts": [
+          4,
+          43,
+          6,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_016",
+        "path": "train/layout_016.mat",
+        "file_sha256": "b8a86e8ff64526ecd79dec17ce748ebb291f334f9ba20d9b3298d1b1c68f8a48",
+        "scene_sha256": "51d3ece189daf76e4cb340df4f6b65671e6a85a4e6d5031e81d3ebbb2189ca70",
+        "rejection_attempts": [
+          49,
+          81,
+          2,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_017",
+        "path": "train/layout_017.mat",
+        "file_sha256": "082d7bc151262b87e6f8f9b3cee1e9774b1f84f2a89cdc6d1d897f116cadf1ec",
+        "scene_sha256": "f386525c16facc3ae77d0fef046d786134b3f9af83112bb4fba89681683ddb2a",
+        "rejection_attempts": [
+          3,
+          329,
+          3,
+          16
+        ]
+      },
+      {
+        "scene_id": "train_018",
+        "path": "train/layout_018.mat",
+        "file_sha256": "6a7a155f5fae54d5667876019f6c8932e454849c4efb3521f73cf878279cfa9d",
+        "scene_sha256": "19b5337a58a14d8fa7a9d6abde065e16684e6c868165c70a5bdf6fe5f83e90b6",
+        "rejection_attempts": [
+          9,
+          46,
+          2,
+          62
+        ]
+      },
+      {
+        "scene_id": "train_019",
+        "path": "train/layout_019.mat",
+        "file_sha256": "e4654f4c21451a6dc0a2b93af14e7d17c37a92df97244a482bafe71bd59a1873",
+        "scene_sha256": "bc9e383a93dad57ce500e0c97bf310e496fad5a530ace18852ba937b629dda17",
+        "rejection_attempts": [
+          1,
+          253,
+          1,
+          22
+        ]
+      },
+      {
+        "scene_id": "train_020",
+        "path": "train/layout_020.mat",
+        "file_sha256": "d953d8c8ae6a61577e755e9b6db71846082d322887e450f3864e2c7d96817580",
+        "scene_sha256": "232f9250c88f4e462500ad3a59e4089ceda14fda28aa255aa82f3a9f873ce9e4",
+        "rejection_attempts": [
+          5,
+          111,
+          16,
+          13
+        ]
+      },
+      {
+        "scene_id": "train_021",
+        "path": "train/layout_021.mat",
+        "file_sha256": "84ac38f287d552593d65a5e39da70aa35893723c1ff15eefb2011aa91bae6612",
+        "scene_sha256": "b6e8228a29a843000ef9d52ba30e4924646c15cde9cabb780014d0aeb5966d5c",
+        "rejection_attempts": [
+          4,
+          101,
+          6,
+          3
+        ]
+      },
+      {
+        "scene_id": "train_022",
+        "path": "train/layout_022.mat",
+        "file_sha256": "1ad471fd47d45863f3ef33366d804e786ad6b0258578ad57bcb8556cfd8486a2",
+        "scene_sha256": "5825ab51f3024fb798ce719207d96eb139d03d4a2a90f9962d4a59b8ec19ef57",
+        "rejection_attempts": [
+          4,
+          12,
+          1,
+          23
+        ]
+      },
+      {
+        "scene_id": "train_023",
+        "path": "train/layout_023.mat",
+        "file_sha256": "a42ce6eceab0d07a7fa6d68b83113a7ce1787e043243815e5c3b8c01aac7d84a",
+        "scene_sha256": "7a768b8bc04cf7051cbd56c63a452b0cf7da29502ac6a78958d565ba7b80749c",
+        "rejection_attempts": [
+          5,
+          63,
+          30,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_024",
+        "path": "train/layout_024.mat",
+        "file_sha256": "20228d094293b3f137a08152c813931c8e94ccd92438f0917d347062b66c2bed",
+        "scene_sha256": "a3b13b74433be7861bebcff3356647cb12c74eb4ee18c55378e64395211a0dea",
+        "rejection_attempts": [
+          14,
+          972,
+          1,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_025",
+        "path": "train/layout_025.mat",
+        "file_sha256": "33cf81c566547f012296781ecddd76bff7a6181b8241f7ade31c0117c54c261f",
+        "scene_sha256": "20f363f7b2e7ba274d4421d0696de83533e30c3930d5b1c3eae75574f95cc179",
+        "rejection_attempts": [
+          2,
+          245,
+          1,
+          4
+        ]
+      },
+      {
+        "scene_id": "train_026",
+        "path": "train/layout_026.mat",
+        "file_sha256": "1aac5c6c3c7516f4eef58a6f8563c1fcf42af4c12d9e33076f08ef3c7b55100e",
+        "scene_sha256": "98754f346bc0f6d5042b3bd75b54ebd6d302cedd4ab91f3571f4c8e28227bf09",
+        "rejection_attempts": [
+          15,
+          227,
+          9,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_027",
+        "path": "train/layout_027.mat",
+        "file_sha256": "c518092372174fc329c911b837cc557507a3bb6e20080f58dfce928fe1d1697c",
+        "scene_sha256": "623c95e40e568ebb96df021f6e1fcc6911c8f609699d2c8e904a7bf2ca2fd698",
+        "rejection_attempts": [
+          3,
+          187,
+          7,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_028",
+        "path": "train/layout_028.mat",
+        "file_sha256": "78677688eb007d6f225e09ff82335699a5c0e5b25a5c9ea23c82f27f9c6ec4cc",
+        "scene_sha256": "bb9a169a0677ebbad77facbb77d1a8557fb11120e3fcf45038a6e922bed8db0b",
+        "rejection_attempts": [
+          15,
+          90,
+          2,
+          40
+        ]
+      },
+      {
+        "scene_id": "train_029",
+        "path": "train/layout_029.mat",
+        "file_sha256": "292f64c5591ed9d7b7b2c79656a012740fc6f429ba69b0b98ee962aafeefcb67",
+        "scene_sha256": "6d66a217bc42b7871dc7b7a4dbcb96ff7aa810f3594b5ca38ad2001b2985d9cb",
+        "rejection_attempts": [
+          15,
+          143,
+          8,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_030",
+        "path": "train/layout_030.mat",
+        "file_sha256": "9a451285e3bd1ecdd94cdbf80bd18e9d030bb7980e94a9e43d3e9d3cb3bee5b4",
+        "scene_sha256": "9a8c3151623a8cfe5cf4b5c8ed5a757625b6216e0cdf67864447c74c95acf48c",
+        "rejection_attempts": [
+          3,
+          85,
+          23,
+          11
+        ]
+      },
+      {
+        "scene_id": "train_031",
+        "path": "train/layout_031.mat",
+        "file_sha256": "561ec0e95de39c8b5adcef6b05555b956dc378b3dac4c01910100de93ea2f257",
+        "scene_sha256": "eb0dab6df466831dbed4f50d1b82fb86447f55d091afdbab6179eeb4598acc7e",
+        "rejection_attempts": [
+          20,
+          286,
+          4,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_032",
+        "path": "train/layout_032.mat",
+        "file_sha256": "5c64907126dfca36569d0fc04a1b6531cb2fb2fd6b7da23fb7f05c0946f17ff3",
+        "scene_sha256": "102d0e073835d46bace0c51cdc40e93101bdd0e53c54dd8dc7a88fd4bd5ecc0e",
+        "rejection_attempts": [
+          3,
+          36,
+          6,
+          23
+        ]
+      },
+      {
+        "scene_id": "train_033",
+        "path": "train/layout_033.mat",
+        "file_sha256": "0c5b219975be35c96e9fdd15b7ce81cf9473072a24e85e0cdb86797a02c02dfa",
+        "scene_sha256": "a0a0a45e5ab1863a149707a94611bbdc7494ea51c426f2ecbd044756856b2e79",
+        "rejection_attempts": [
+          4,
+          373,
+          5,
+          9
+        ]
+      },
+      {
+        "scene_id": "train_034",
+        "path": "train/layout_034.mat",
+        "file_sha256": "ede09a621f3b45e74c8df9ee1e0e1cce8c2b3e04402c8da9cbb38357b3df064c",
+        "scene_sha256": "0632686f2863fbb3cb15f084e5270e7472a3687f4ddcf37e35a3886d16d8259c",
+        "rejection_attempts": [
+          3,
+          182,
+          3,
+          6
+        ]
+      },
+      {
+        "scene_id": "train_035",
+        "path": "train/layout_035.mat",
+        "file_sha256": "ab7a85b3a8c104b2675216c1dd911e88880828def139da478e41f6f82a5f3ffd",
+        "scene_sha256": "2e8112be9bf4941ac7333a708cf3f39da4ef4a015d27dd375682a6bdd5d34b4d",
+        "rejection_attempts": [
+          4,
+          17,
+          3,
+          28
+        ]
+      },
+      {
+        "scene_id": "train_036",
+        "path": "train/layout_036.mat",
+        "file_sha256": "73e7ff8ac5e0ee644df1ea5a9279e8d7963ce75ba7711e8b7f5aec401f986f13",
+        "scene_sha256": "d0845a571511c5718d3d30164c35542f61eae73fd1962db11e29d0bf897a6e67",
+        "rejection_attempts": [
+          11,
+          35,
+          19,
+          29
+        ]
+      },
+      {
+        "scene_id": "train_037",
+        "path": "train/layout_037.mat",
+        "file_sha256": "4532a7a43205ec8d94af0e09333afa2c92fc30f3587b1614df52696f1ceff2c0",
+        "scene_sha256": "933d251aa3afaa11c8499b9b5823111b7701d2846dc83aebdfe4d1f04967ad43",
+        "rejection_attempts": [
+          1,
+          377,
+          10,
+          3
+        ]
+      },
+      {
+        "scene_id": "train_038",
+        "path": "train/layout_038.mat",
+        "file_sha256": "75ece000b2db256b918886452ac61792665824dc06d932611145cda537b9e9e6",
+        "scene_sha256": "174bc61df99c24b5e70885619327a40142b48c5704397a97d945a9f110067874",
+        "rejection_attempts": [
+          11,
+          361,
+          27,
+          8
+        ]
+      },
+      {
+        "scene_id": "train_039",
+        "path": "train/layout_039.mat",
+        "file_sha256": "9be729e5343d1f248638693fde5da90080a02d71406c223035f5dacb39b0926a",
+        "scene_sha256": "083f27e44237dfa10b6d11be29cca11c562a3366f0f15ae7a1524e9ebe5cec21",
+        "rejection_attempts": [
+          2,
+          70,
+          12,
+          3
+        ]
+      },
+      {
+        "scene_id": "train_040",
+        "path": "train/layout_040.mat",
+        "file_sha256": "3f1699aec35037c5d5845169a44975b68257fcd142df81b2ca8c594f341e7249",
+        "scene_sha256": "631e877c7e475fd0696717e3588caa07175e2bdc17c236ddbb19223d126434aa",
+        "rejection_attempts": [
+          11,
+          38,
+          2,
+          11
+        ]
+      },
+      {
+        "scene_id": "train_041",
+        "path": "train/layout_041.mat",
+        "file_sha256": "fd59f94b1491e7a0c00cce88e3616f417cdf0cfe467930c664d2acd7040de2af",
+        "scene_sha256": "808f5936b810ec2533aecd842859cb910d42fe6e1df5efbb089676889f99216b",
+        "rejection_attempts": [
+          1,
+          894,
+          27,
+          4
+        ]
+      },
+      {
+        "scene_id": "train_042",
+        "path": "train/layout_042.mat",
+        "file_sha256": "a59064066f0e6e33c5e0937c70713449863b168be64db22920364009cf3a7bd9",
+        "scene_sha256": "150276de7613012a9b87e0a1332cda70ad34b3fd26daf9050ba75241beb9d54e",
+        "rejection_attempts": [
+          4,
+          65,
+          8,
+          6
+        ]
+      },
+      {
+        "scene_id": "train_043",
+        "path": "train/layout_043.mat",
+        "file_sha256": "27e37af6648a81f34cbc29c43856e027802b0f318124a62b39a9738d90e3df14",
+        "scene_sha256": "ae2c03fd8c279b91832ebb989c38cf4bd151e1938f2bb878d09ac94afa6a4cfe",
+        "rejection_attempts": [
+          2,
+          17,
+          16,
+          4
+        ]
+      },
+      {
+        "scene_id": "train_044",
+        "path": "train/layout_044.mat",
+        "file_sha256": "0813d9513cad4121775599835e82073c4c1cdaf5d8442e5ea4f739058da6d562",
+        "scene_sha256": "968b28aebceace6b9ed86f03ae132c747bac949bce1089d4f28c0241a3d6a239",
+        "rejection_attempts": [
+          9,
+          44,
+          4,
+          11
+        ]
+      },
+      {
+        "scene_id": "train_045",
+        "path": "train/layout_045.mat",
+        "file_sha256": "528405ec2625a77ec90428224b392e0de9c3bac932265381303bf9c0b98edcf8",
+        "scene_sha256": "b8ccb3dffc6c6663f9f5a2e701604af4d901410c536e1b8b6dc43b49b99313c2",
+        "rejection_attempts": [
+          13,
+          143,
+          32,
+          4
+        ]
+      },
+      {
+        "scene_id": "train_046",
+        "path": "train/layout_046.mat",
+        "file_sha256": "ecf3b0f5a4a68aedc5bab8f03e703f92bf9f7b7472f0d867bdebda533505b359",
+        "scene_sha256": "bbe2f0f0ca828f787bb6475930e615e0774b79a81d332c51052ffc56f9c33ab8",
+        "rejection_attempts": [
+          6,
+          1,
+          3,
+          29
+        ]
+      },
+      {
+        "scene_id": "train_047",
+        "path": "train/layout_047.mat",
+        "file_sha256": "05a8ea0bec6f41839c060ec0a4bf889d5fd8b905e0d9d23c2eab952ea6e4550d",
+        "scene_sha256": "0fee519018054d1bd0ccc6e7464cca6317ad726f83fc64ec5eb7d8ce8330e8cf",
+        "rejection_attempts": [
+          16,
+          128,
+          3,
+          15
+        ]
+      },
+      {
+        "scene_id": "train_048",
+        "path": "train/layout_048.mat",
+        "file_sha256": "0763a1323ad8dd328d8c12bc76606624619fa9f379237d9d94154bed47d71720",
+        "scene_sha256": "b01c15818987d4bf98d07d27f02f8e5f991b3898a0b2680d7f0f2fa521db8dc9",
+        "rejection_attempts": [
+          5,
+          304,
+          8,
+          1
+        ]
+      },
+      {
+        "scene_id": "train_049",
+        "path": "train/layout_049.mat",
+        "file_sha256": "c2792672ad0e91fdae21c7081e5d2a3f148833e3fd696f2a66e9332c19955237",
+        "scene_sha256": "2e386a8cba0792a3a92bb3a24725b655f6353333e3b4ed214f9c79084d166245",
+        "rejection_attempts": [
+          11,
+          85,
+          10,
+          28
+        ]
+      },
+      {
+        "scene_id": "train_050",
+        "path": "train/layout_050.mat",
+        "file_sha256": "7f001559dd6f318c630ec5d2440570f2f48d1a67ec85e7b13ae33ec50ce956c0",
+        "scene_sha256": "aa94e81c011822cd2756bf4cca743c22394c048b6154f903a0aa5cb78d754669",
+        "rejection_attempts": [
+          17,
+          104,
+          35,
+          26
+        ]
+      },
+      {
+        "scene_id": "train_051",
+        "path": "train/layout_051.mat",
+        "file_sha256": "59a5921e17ec37976d760f06fc5d1165d6f528f654889decae09854f6906c1f8",
+        "scene_sha256": "7ab06be547222e5bfe31961f2d2d0edb0d22c2a850fbde0da828dd2e27456fb3",
+        "rejection_attempts": [
+          5,
+          25,
+          7,
+          20
+        ]
+      },
+      {
+        "scene_id": "train_052",
+        "path": "train/layout_052.mat",
+        "file_sha256": "a56cf3718387766cd9c54de7307fa62f0330874ccc552d8246dfb96053c6138c",
+        "scene_sha256": "da5820d69d65356c62f1f6e8b9ea90e02449f23e56c1e5ca8cff62320b2bc22e",
+        "rejection_attempts": [
+          11,
+          161,
+          3,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_053",
+        "path": "train/layout_053.mat",
+        "file_sha256": "e2d6b90a2507168cb70335cd9f83f13919783152e2845b92247c0b5220f24a17",
+        "scene_sha256": "1371ab7d4335781fdbef2d459244307fe67f0ee002995c520351923e1ed865de",
+        "rejection_attempts": [
+          1,
+          292,
+          3,
+          12
+        ]
+      },
+      {
+        "scene_id": "train_054",
+        "path": "train/layout_054.mat",
+        "file_sha256": "32e243870e9f0de6ed0c0804dde2c23d0a4a67693f574e9e3fea696c618b2048",
+        "scene_sha256": "477f1152559717c765bbda1642ca3fe37f51655c6adb9f27c2c628383020a8d8",
+        "rejection_attempts": [
+          4,
+          232,
+          3,
+          18
+        ]
+      },
+      {
+        "scene_id": "train_055",
+        "path": "train/layout_055.mat",
+        "file_sha256": "3624da318beea16c68bf85b89e5daf2bb449b23438ab52d88b11c08ade2df9e6",
+        "scene_sha256": "fc2ed49dd93449d1f6fad21683e9dd723249c97eae2680125049afd35ca393a0",
+        "rejection_attempts": [
+          17,
+          425,
+          15,
+          20
+        ]
+      },
+      {
+        "scene_id": "train_056",
+        "path": "train/layout_056.mat",
+        "file_sha256": "8261713bb9e1317e0adad4edb2f865205dd2fae1a5961e1ceaa32245ebcd3c9c",
+        "scene_sha256": "6259d7ce3f8614f92f250b9eebf8152742133ce58fa429c1847622be0174106a",
+        "rejection_attempts": [
+          5,
+          25,
+          18,
+          1
+        ]
+      },
+      {
+        "scene_id": "train_057",
+        "path": "train/layout_057.mat",
+        "file_sha256": "2858eda1b2ae2dbe69250adb901612dc0c49439adad2494bafd12973094c3f86",
+        "scene_sha256": "ebeee1274950d5f4edf4c685c4d17514bdc5cc786ca16a51a48616dde3f17fae",
+        "rejection_attempts": [
+          2,
+          135,
+          5,
+          13
+        ]
+      },
+      {
+        "scene_id": "train_058",
+        "path": "train/layout_058.mat",
+        "file_sha256": "30e2587e003c5235ccd6b71d59c6bc785fb3309b8f368b09e9b207f683866f90",
+        "scene_sha256": "57cfcbaf13338668dc7c8c613fe307bdd67b083988bc09c9bb75dad2436cc37e",
+        "rejection_attempts": [
+          20,
+          1,
+          11,
+          1
+        ]
+      },
+      {
+        "scene_id": "train_059",
+        "path": "train/layout_059.mat",
+        "file_sha256": "8ee9a2e8f0af4d569eab1f47615fba9b98a597bfee1ef2fdd566954d352fda65",
+        "scene_sha256": "f7066477cf51f642627813b63169ddcb3e24771b1ab6cbb304c2129eee404138",
+        "rejection_attempts": [
+          12,
+          88,
+          5,
+          15
+        ]
+      },
+      {
+        "scene_id": "train_060",
+        "path": "train/layout_060.mat",
+        "file_sha256": "b75f548dbd0f7b5574232ff5e425de403cc15da879189c03346f103e1a0ae72f",
+        "scene_sha256": "69080b4f452be7777b981b2fc1864dc7e06a79eb89b49c860ed9cc7d1af84caa",
+        "rejection_attempts": [
+          10,
+          17,
+          16,
+          17
+        ]
+      },
+      {
+        "scene_id": "train_061",
+        "path": "train/layout_061.mat",
+        "file_sha256": "d460a97436a63934f3731996ce6c5a3477ce33e58fe863b7e4d70b2ec10c1364",
+        "scene_sha256": "0cffaa908fe6f04ad3b211db9e6bd3f784eea32ec2a6e75dd5c03fe7bd03d1e8",
+        "rejection_attempts": [
+          6,
+          13,
+          12,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_062",
+        "path": "train/layout_062.mat",
+        "file_sha256": "b45c97dc0a175628383534bb970921d440e9c132b2dfa7af5bc1f43692ef886e",
+        "scene_sha256": "717db5ad6bc4c9701d8bb064d85d9534e640b98997526dd0151a8484e0c07f2c",
+        "rejection_attempts": [
+          35,
+          105,
+          8,
+          5
+        ]
+      },
+      {
+        "scene_id": "train_063",
+        "path": "train/layout_063.mat",
+        "file_sha256": "2d6a2f41d098688492cb2e9e807bb61e331927030c71fc1f350179f936e57a2d",
+        "scene_sha256": "726437097b0655c5356a9dcbbd61b4d201f03b7b414146bb8a5ea21b2d31daeb",
+        "rejection_attempts": [
+          6,
+          49,
+          12,
+          11
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "scene_id": "validation_000",
+        "path": "validation/layout_000.mat",
+        "file_sha256": "7620fe27c9901cac726492b3409f57487663f10958b71e274ecb09fec6482064",
+        "scene_sha256": "19f3d569154861a888cbe2ffc48940aae35958713d8430b95e1b9f199a72c0c6",
+        "rejection_attempts": [
+          1,
+          253,
+          4,
+          7
+        ]
+      },
+      {
+        "scene_id": "validation_001",
+        "path": "validation/layout_001.mat",
+        "file_sha256": "1ab569ca25a2f8921b2c81cf321c7fac68070c11e7fad65dd1e4464636eb9348",
+        "scene_sha256": "0494b2d87f3dc531b35702115eaa7656d91b1eb7918e893c4fda0d4d331d58c1",
+        "rejection_attempts": [
+          14,
+          140,
+          9,
+          19
+        ]
+      },
+      {
+        "scene_id": "validation_002",
+        "path": "validation/layout_002.mat",
+        "file_sha256": "5def7e24316a77652fe340c0714e26b70066c31c00d9814ca7a49a0ad3f36612",
+        "scene_sha256": "8b39bb9ec5e0cdf855157a11b697790ae4c18a255affde211636527ddbcae7eb",
+        "rejection_attempts": [
+          11,
+          148,
+          8,
+          7
+        ]
+      },
+      {
+        "scene_id": "validation_003",
+        "path": "validation/layout_003.mat",
+        "file_sha256": "bfdf4b4890a23bf327c173af81881de011cc6f33b7d7361383f018c717272019",
+        "scene_sha256": "584e2607aa092029c69ff5d47ac1260ff5dbc1464deae5f575b2b126f442089e",
+        "rejection_attempts": [
+          24,
+          47,
+          14,
+          20
+        ]
+      },
+      {
+        "scene_id": "validation_004",
+        "path": "validation/layout_004.mat",
+        "file_sha256": "692ea1e3bfb43ea937afc272becac59c2c54dbd31441d18814b3c8c0edcbeca8",
+        "scene_sha256": "0648b76cc37a26f46732039365ac74dd7f259a33a3ff5092663101fc0ab6e445",
+        "rejection_attempts": [
+          13,
+          185,
+          11,
+          14
+        ]
+      },
+      {
+        "scene_id": "validation_005",
+        "path": "validation/layout_005.mat",
+        "file_sha256": "db865974b28850ae354ac75b21dcc047fa5f0d7f7402e01fff40d1666f34aced",
+        "scene_sha256": "2beada4775cafffd419066449da9a419c58f5a57c7509308acefd79c46b8cfbf",
+        "rejection_attempts": [
+          1,
+          237,
+          36,
+          5
+        ]
+      },
+      {
+        "scene_id": "validation_006",
+        "path": "validation/layout_006.mat",
+        "file_sha256": "63a175964c49b82e6922b5336d3acdd26bf0063ebc30ba5b6823e05a87ccf6eb",
+        "scene_sha256": "77e4b3df552a5b67c32508bffb18f2abc2ebde387412736d851bf7f62f942158",
+        "rejection_attempts": [
+          24,
+          315,
+          30,
+          6
+        ]
+      },
+      {
+        "scene_id": "validation_007",
+        "path": "validation/layout_007.mat",
+        "file_sha256": "05227d230934f84b412ef93778f32aa91d5aba217f17201dfdd55eb997825732",
+        "scene_sha256": "1fa028ad51bec408b2958602bdd21f21988b518d73386815710649a93bc9baf5",
+        "rejection_attempts": [
+          4,
+          398,
+          12,
+          3
+        ]
+      },
+      {
+        "scene_id": "validation_008",
+        "path": "validation/layout_008.mat",
+        "file_sha256": "9090e479a8a72b8f7e2a93a42ff747017e5e0734a7e345e6b10f3d3ae10de1e7",
+        "scene_sha256": "b84be4e066daa4d65f20bcd78c449dad41a9b9b094609bfbb22f8b0344451508",
+        "rejection_attempts": [
+          11,
+          229,
+          2,
+          18
+        ]
+      },
+      {
+        "scene_id": "validation_009",
+        "path": "validation/layout_009.mat",
+        "file_sha256": "76780607177b3e17cd86f1a8d027d380efc0b9b1c42918a2e911ac8772ca87b6",
+        "scene_sha256": "09ef27b6bf0717e42f21c7b431dbed411904accad88ea25e944970e14e3e4da9",
+        "rejection_attempts": [
+          3,
+          182,
+          5,
+          9
+        ]
+      },
+      {
+        "scene_id": "validation_010",
+        "path": "validation/layout_010.mat",
+        "file_sha256": "d7c19ed6e0546c8d323729ecddd075b7547a1b14365b2e2ae8d4dd63547b066b",
+        "scene_sha256": "f7890eacbc4aa54da37915bd341eaba48afab176033c71779cf557e7de046b86",
+        "rejection_attempts": [
+          8,
+          52,
+          1,
+          1
+        ]
+      },
+      {
+        "scene_id": "validation_011",
+        "path": "validation/layout_011.mat",
+        "file_sha256": "73884a11aff00ee3ea58f5649f044846e7e3ae6527a49d5c2e009d307702ea5f",
+        "scene_sha256": "7d7066ba8ea5fd58d93964684adfb118ffe035e3e54c9cfd872c43fe5eb2babb",
+        "rejection_attempts": [
+          33,
+          96,
+          14,
+          3
+        ]
+      },
+      {
+        "scene_id": "validation_012",
+        "path": "validation/layout_012.mat",
+        "file_sha256": "3c9061be5bcd2e320359a1f9e66486be81012375212a6e7bd9d6940253836e36",
+        "scene_sha256": "5721eba8e8e14dfe4105801d4d02d7a137b4749c0e828c0528cb161e4220e0d8",
+        "rejection_attempts": [
+          5,
+          85,
+          3,
+          15
+        ]
+      },
+      {
+        "scene_id": "validation_013",
+        "path": "validation/layout_013.mat",
+        "file_sha256": "2f979e7c5dfd160a84f4ffa7de99b15fa7be81d28bbcadebe5f95a521018fe8d",
+        "scene_sha256": "7c8d7897ba6ddfc129abcff4dcf954022fc9fe3748a2d41f593643574c1a58f6",
+        "rejection_attempts": [
+          3,
+          17,
+          2,
+          1
+        ]
+      },
+      {
+        "scene_id": "validation_014",
+        "path": "validation/layout_014.mat",
+        "file_sha256": "dd613dde8075f054d7dc6194c8aedf9086d9f23e68d71d89d7b9259a6ba1af2f",
+        "scene_sha256": "356b60ebc1c2440d72e6ad4f87af90f51dceb7559d65ec9afb4aa608e2f7cb54",
+        "rejection_attempts": [
+          9,
+          151,
+          3,
+          11
+        ]
+      },
+      {
+        "scene_id": "validation_015",
+        "path": "validation/layout_015.mat",
+        "file_sha256": "5d8322c4b0b4ee8531ea3d4577ce3643336ec84bf9e567d360cefe1bdf97322d",
+        "scene_sha256": "18ab778f968c2c2f6375d378c8e677896945cab4acff12d7ccbaab45496ccd52",
+        "rejection_attempts": [
+          24,
+          14,
+          1,
+          1
+        ]
+      }
+    ],
+    "test": [
+      {
+        "scene_id": "test_000",
+        "path": "test/layout_000.mat",
+        "file_sha256": "5fa8366dafc6f3660798ef3a58fe4e9d681bfa8cda59762a652a3fc429b003a6",
+        "scene_sha256": "2a5c44bb8e90875e7b6d5307230e5c47e3f5ef9becde6d0e2dae8e7c42359799",
+        "rejection_attempts": [
+          21,
+          238,
+          8,
+          17
+        ]
+      },
+      {
+        "scene_id": "test_001",
+        "path": "test/layout_001.mat",
+        "file_sha256": "5c14ba39b53f611b191313ef41fb93f6c8b0815da9769257c22764df822d52d5",
+        "scene_sha256": "4cb5e01d570c76bc8c12eafb0054c8f963b6b5a582d774be32cd3fe6fd4bbae0",
+        "rejection_attempts": [
+          26,
+          1034,
+          5,
+          9
+        ]
+      },
+      {
+        "scene_id": "test_002",
+        "path": "test/layout_002.mat",
+        "file_sha256": "0852818a3796e90aeded4bf537f717e110404b01d4b4e8198c5661d9fbebd56f",
+        "scene_sha256": "f8d4cf949da7852908bce62f3be00e35b8ee4126abd84df654a16b738be22b64",
+        "rejection_attempts": [
+          6,
+          40,
+          6,
+          17
+        ]
+      },
+      {
+        "scene_id": "test_003",
+        "path": "test/layout_003.mat",
+        "file_sha256": "8b427e8c79aefb75a32af04547c20b997a35466eca2f09548a6e68111b6bf16e",
+        "scene_sha256": "3274a417de56539d24b7f8fdd9d5190043b6b2fef405744bb38913b9d559312b",
+        "rejection_attempts": [
+          6,
+          131,
+          6,
+          2
+        ]
+      },
+      {
+        "scene_id": "test_004",
+        "path": "test/layout_004.mat",
+        "file_sha256": "955bbe24a97410f34615627679065df7fd6c97eae13251204c51065b2fee05cd",
+        "scene_sha256": "7a52c6d5a8939242dfa51ec0ae37a058d2f2e0dfffbe370cdb07e00c7a9faa51",
+        "rejection_attempts": [
+          5,
+          40,
+          27,
+          3
+        ]
+      },
+      {
+        "scene_id": "test_005",
+        "path": "test/layout_005.mat",
+        "file_sha256": "bd34dca5ae07082881475eb28b99a3330b3b4532864e84ed5e4a4809359409a3",
+        "scene_sha256": "90cd4f3c4de4fb9643dbe2a9ec80573b5f4a63a3f39fc78ae95c6f9ea00178cc",
+        "rejection_attempts": [
+          2,
+          94,
+          1,
+          46
+        ]
+      },
+      {
+        "scene_id": "test_006",
+        "path": "test/layout_006.mat",
+        "file_sha256": "9d8d2be14b3b6b9f4aaa4f8cc69fa8adbbe170ea9834b56b31ade96d4384d398",
+        "scene_sha256": "20fc6a1e6dd4f0e132fc846b31f8bd15725631f2dcfafcf8aff480583d0bd967",
+        "rejection_attempts": [
+          2,
+          135,
+          19,
+          18
+        ]
+      },
+      {
+        "scene_id": "test_007",
+        "path": "test/layout_007.mat",
+        "file_sha256": "62016544474797774724b11417abcc5b91a1724266e7f1c3c7abb546c1b78d36",
+        "scene_sha256": "860ec95f2d8416f4bd062a81d513d987dab8a6ead0b43fdd0480882ac6129c74",
+        "rejection_attempts": [
+          3,
+          80,
+          3,
+          15
+        ]
+      },
+      {
+        "scene_id": "test_008",
+        "path": "test/layout_008.mat",
+        "file_sha256": "d3842365088943cf758cf37854a921391b0e1084d3361e25920f4a28b89b02d5",
+        "scene_sha256": "697cf42c825859ce23ae977174f41b50b454fc5bfb416217f915c3b578ea0948",
+        "rejection_attempts": [
+          12,
+          15,
+          1,
+          6
+        ]
+      },
+      {
+        "scene_id": "test_009",
+        "path": "test/layout_009.mat",
+        "file_sha256": "975043014c1186c4d255470b157e5ed3416c274d613d9395dfcd06a8ac44025f",
+        "scene_sha256": "31c6b5aa7006afff3ea11f78b0507c41fe3f8d4eebb5d7a70792ffdaabe1c5fa",
+        "rejection_attempts": [
+          9,
+          52,
+          7,
+          7
+        ]
+      },
+      {
+        "scene_id": "test_010",
+        "path": "test/layout_010.mat",
+        "file_sha256": "a9fba6507a9bcb8c230d35a6a0ee731f175e023df14113df1da1b0652d70c8f7",
+        "scene_sha256": "2e083456f23f6219309bc138d2ff34c2a61a2c6eb5349400ce768874df6df843",
+        "rejection_attempts": [
+          17,
+          247,
+          2,
+          5
+        ]
+      },
+      {
+        "scene_id": "test_011",
+        "path": "test/layout_011.mat",
+        "file_sha256": "54f7742974b7e22a728ed091bed22e91122028b1fa8c7588a249b31d3db18357",
+        "scene_sha256": "bafe86c1a04d1e1f568ca966542b11db17efc3ca0806fbe9ca168a0a557e0baa",
+        "rejection_attempts": [
+          3,
+          185,
+          3,
+          2
+        ]
+      },
+      {
+        "scene_id": "test_012",
+        "path": "test/layout_012.mat",
+        "file_sha256": "bb21f2c99bceed1b504dfd2a7d27421ec354f27debea37298a0fe804eba5807b",
+        "scene_sha256": "1b7ebf195db4446dfb9e35c82e050534e2bbb099b1fffacefa8a2cabdda96f50",
+        "rejection_attempts": [
+          9,
+          481,
+          6,
+          20
+        ]
+      },
+      {
+        "scene_id": "test_013",
+        "path": "test/layout_013.mat",
+        "file_sha256": "5d5d9eb0899eb74a11b62da0f9df8f359eea0935b2e874f11075c31c07fe24bc",
+        "scene_sha256": "aa1262941233a6d5648a98aa5f7b9b8528309537243c7ba2abcfa25d5a1e6784",
+        "rejection_attempts": [
+          23,
+          436,
+          3,
+          1
+        ]
+      },
+      {
+        "scene_id": "test_014",
+        "path": "test/layout_014.mat",
+        "file_sha256": "0611d6611c099eaf890bb29249db445ad049076b9ba3ede0f58ab58be9a0096f",
+        "scene_sha256": "b434a0ec4777b253190ee1a23e67bb07af059a62763878f65f686e8206b813ac",
+        "rejection_attempts": [
+          7,
+          138,
+          5,
+          5
+        ]
+      },
+      {
+        "scene_id": "test_015",
+        "path": "test/layout_015.mat",
+        "file_sha256": "61f45f7b603eae4d1a36eb1e7b084fac3d532189b8bc5aa5cf2c07a7c8ced793",
+        "scene_sha256": "a54ae6c1ca18fc6ca2ae727a8fe32e5ae69e8210c2d733c5b1465d25b3fb8596",
+        "rejection_attempts": [
+          1,
+          146,
+          2,
+          9
+        ]
+      },
+      {
+        "scene_id": "test_016",
+        "path": "test/layout_016.mat",
+        "file_sha256": "900af49ee49ddaa7212d358b13a70f7ecc834ad30bd372497909ae381724cdb5",
+        "scene_sha256": "d96e8e224731d2d7b253989cd9657ea5e029115b2f7aaf1da74289962116d654",
+        "rejection_attempts": [
+          22,
+          36,
+          24,
+          16
+        ]
+      },
+      {
+        "scene_id": "test_017",
+        "path": "test/layout_017.mat",
+        "file_sha256": "42d6167694d0f63c0d4053cc7aca3d3d2f31f7fd4360797fe31d602e0e233a40",
+        "scene_sha256": "94c0e7a1d5b7c368897f7dc506974aa210c3ecb20e4cf073ce84b978c9716984",
+        "rejection_attempts": [
+          1,
+          54,
+          7,
+          16
+        ]
+      },
+      {
+        "scene_id": "test_018",
+        "path": "test/layout_018.mat",
+        "file_sha256": "c920d7c61df68d6f5a2adbed9b18f425736182040671e6e11d790893a9ff59be",
+        "scene_sha256": "f0fd2c576edbd1ea5f122b9a56c6b2d05d86505194765ce89c9e6e802105086d",
+        "rejection_attempts": [
+          6,
+          108,
+          10,
+          13
+        ]
+      },
+      {
+        "scene_id": "test_019",
+        "path": "test/layout_019.mat",
+        "file_sha256": "22640f932299c3f8c8f86031cf4fb8bcf98280edcf2267fe05576f2c6c1dfcf3",
+        "scene_sha256": "6ce8e1a0695cd28cc4cfd92e46a910934828dd8643674872494d2cee78c91622",
+        "rejection_attempts": [
+          12,
+          230,
+          4,
+          16
+        ]
+      },
+      {
+        "scene_id": "test_020",
+        "path": "test/layout_020.mat",
+        "file_sha256": "5ba178b768333c9987374e2390f0e553fa9e3d96a98784852abe35614545f486",
+        "scene_sha256": "72dbb6c8b2376b93989de3147358df1dfd731cc7edd1c4f3052abacc6bfd6a5b",
+        "rejection_attempts": [
+          3,
+          26,
+          30,
+          22
+        ]
+      },
+      {
+        "scene_id": "test_021",
+        "path": "test/layout_021.mat",
+        "file_sha256": "5f1c668298bd9248ebfa80274962c56afc16b49b86a9e0e4c9ab5cf090f6fc6f",
+        "scene_sha256": "879be894a3bbbd672551991533b5d95d51bbf3b6536245a8d17c0a85cc9ed1fc",
+        "rejection_attempts": [
+          4,
+          19,
+          4,
+          15
+        ]
+      },
+      {
+        "scene_id": "test_022",
+        "path": "test/layout_022.mat",
+        "file_sha256": "70fb47af7e6465ef53ae08cab9badc7d8bece3290ef3bd9707d7a2a116ee6682",
+        "scene_sha256": "4010e076ab941bb75295ca24c542358bba581542c6453fc162b52230d9fc10b4",
+        "rejection_attempts": [
+          1,
+          211,
+          11,
+          3
+        ]
+      },
+      {
+        "scene_id": "test_023",
+        "path": "test/layout_023.mat",
+        "file_sha256": "cf8572fb76fde6f2aec0631e1641f52423c6dc979eb1bf174d67c3a1f9802e63",
+        "scene_sha256": "eb0bc49e2abbeca29a9791ac681a1e268596cf2ae3b7b82717461c2c288f265c",
+        "rejection_attempts": [
+          22,
+          36,
+          15,
+          22
+        ]
+      },
+      {
+        "scene_id": "test_024",
+        "path": "test/layout_024.mat",
+        "file_sha256": "7f90fae487e757dc203a4fae1c3ae71bfd6f631d8abd8bde2d6a97209c0d892c",
+        "scene_sha256": "908f6c32215e19c20d646ea2123dbe8f1b0fd90d2357e94bdd035d93b4455d40",
+        "rejection_attempts": [
+          2,
+          298,
+          22,
+          61
+        ]
+      },
+      {
+        "scene_id": "test_025",
+        "path": "test/layout_025.mat",
+        "file_sha256": "0891e8468502c30cc7c6f7f57f173115ee974b79004b23838a64f001d4d6d7fa",
+        "scene_sha256": "d499da98477ae4482f4503d6c9e6f56e99cbff6d76b7df0594c0690b46006ff5",
+        "rejection_attempts": [
+          1,
+          342,
+          21,
+          9
+        ]
+      },
+      {
+        "scene_id": "test_026",
+        "path": "test/layout_026.mat",
+        "file_sha256": "76a7fe4cecd18eb702e7927ce5de63e6d5ffbada35cc67648189f98391c3e41b",
+        "scene_sha256": "070f42722cf1ed83210e691a9bf9e908c7a0eba8263fb2d0b27966817fde15bf",
+        "rejection_attempts": [
+          11,
+          103,
+          9,
+          18
+        ]
+      },
+      {
+        "scene_id": "test_027",
+        "path": "test/layout_027.mat",
+        "file_sha256": "2f951bea396fae22bd74d48d651042cdfe241ad8d0da9c5ce9411251aee7485c",
+        "scene_sha256": "720855f367e8ec89269a8c2f4b7083aa3c1cc913b10a31677ea4385e39bb9128",
+        "rejection_attempts": [
+          2,
+          408,
+          9,
+          30
+        ]
+      },
+      {
+        "scene_id": "test_028",
+        "path": "test/layout_028.mat",
+        "file_sha256": "551e6b2af9cf66665ae8ca6374099d3c78c986767f227b59953fc03d621db8b7",
+        "scene_sha256": "2e0a077a4d775453d5c98a03fab7dae244c06e51c819b563fb44b8e541e64149",
+        "rejection_attempts": [
+          7,
+          147,
+          2,
+          8
+        ]
+      },
+      {
+        "scene_id": "test_029",
+        "path": "test/layout_029.mat",
+        "file_sha256": "48177e80c6f5c926cf79cf6f7fcd7bc9c0bbfb59dcf3fa9441aaf151e70bb350",
+        "scene_sha256": "761e83040d3a0dea2f3341b4fda27aef8b450e97f7f5fb92a5cdfec266e13a80",
+        "rejection_attempts": [
+          15,
+          171,
+          3,
+          3
+        ]
+      },
+      {
+        "scene_id": "test_030",
+        "path": "test/layout_030.mat",
+        "file_sha256": "2a08ea8b25152a5c0fd2a55455604c8e4f921ffeb75c234e57ed4f67673c5f31",
+        "scene_sha256": "e2c29b42ddc21df139b01c6b7323563ac92b7aa2332ee45baad32af5d74bb8af",
+        "rejection_attempts": [
+          9,
+          61,
+          22,
+          3
+        ]
+      },
+      {
+        "scene_id": "test_031",
+        "path": "test/layout_031.mat",
+        "file_sha256": "60d9bcae0be067adf6ba86cfd0d9087f55641f51da5b27af6f7b66f0a7b14043",
+        "scene_sha256": "471251295e75c4f48a7fc09f4c2051be6f3a29a29148938f873f01855c501a03",
+        "rejection_attempts": [
+          5,
+          260,
+          14,
+          29
+        ]
+      }
+    ]
+  }
+}

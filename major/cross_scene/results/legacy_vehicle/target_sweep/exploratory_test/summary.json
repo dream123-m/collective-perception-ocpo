@@ -1,0 +1,142 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-30T04:19:57.696837+00:00",
+  "aggregate": [
+    {
+      "target": 0.8,
+      "reward_mean": 1.9727851936504954,
+      "reward_sample_sd": 0.8150200182529876,
+      "coverage_mean": 0.872582072051148,
+      "coverage_sample_sd": 0.020439532480232617,
+      "payload_mean": 5.298076923076923,
+      "payload_sample_sd": 0.250766696590329
+    },
+    {
+      "target": 0.85,
+      "reward_mean": 3.9494405963591164,
+      "reward_sample_sd": 0.3884705208291807,
+      "coverage_mean": 0.879723860652512,
+      "coverage_sample_sd": 0.006419284662881409,
+      "payload_mean": 5.304326923076923,
+      "payload_sample_sd": 0.08844593981474666
+    },
+    {
+      "target": 0.9,
+      "reward_mean": 4.807740304264285,
+      "reward_sample_sd": 0.21554230461717608,
+      "coverage_mean": 0.9087780078838201,
+      "coverage_sample_sd": 0.004473596945281556,
+      "payload_mean": 5.802953296703297,
+      "payload_sample_sd": 0.013031544974119806
+    },
+    {
+      "target": 0.95,
+      "reward_mean": 4.919755605714662,
+      "reward_sample_sd": 0.1507079744087622,
+      "coverage_mean": 0.9442382629789485,
+      "coverage_sample_sd": 0.004912055633415303,
+      "payload_mean": 6.665728021978022,
+      "payload_sample_sd": 0.17183650052943086
+    }
+  ],
+  "per_seed": [
+    {
+      "target": 0.8,
+      "seed": 42,
+      "selected_episode": 900,
+      "reward": 1.2240022921136446,
+      "coverage": 0.8923998877426597,
+      "payload": 5.573626373626373
+    },
+    {
+      "target": 0.8,
+      "seed": 123,
+      "selected_episode": 1200,
+      "reward": 2.840887850416558,
+      "coverage": 0.8515729334004296,
+      "payload": 5.237362637362637
+    },
+    {
+      "target": 0.8,
+      "seed": 456,
+      "selected_episode": 1100,
+      "reward": 1.8534654384212834,
+      "coverage": 0.8737733950103548,
+      "payload": 5.083241758241758
+    },
+    {
+      "target": 0.85,
+      "seed": 42,
+      "selected_episode": 1400,
+      "reward": 3.669202806161983,
+      "coverage": 0.8843084076876924,
+      "payload": 5.29896978021978
+    },
+    {
+      "target": 0.85,
+      "seed": 123,
+      "selected_episode": 1000,
+      "reward": 3.7862289271184375,
+      "coverage": 0.8824757582209147,
+      "payload": 5.218681318681319
+    },
+    {
+      "target": 0.85,
+      "seed": 456,
+      "selected_episode": 1500,
+      "reward": 4.392890055796929,
+      "coverage": 0.8723874160489287,
+      "payload": 5.39532967032967
+    },
+    {
+      "target": 0.9,
+      "seed": 42,
+      "selected_episode": 1400,
+      "reward": 4.558856812970979,
+      "coverage": 0.9135866462151857,
+      "payload": 5.80782967032967
+    },
+    {
+      "target": 0.9,
+      "seed": 123,
+      "selected_episode": 900,
+      "reward": 4.9332960072372645,
+      "coverage": 0.9047394250682254,
+      "payload": 5.812843406593407
+    },
+    {
+      "target": 0.9,
+      "seed": 456,
+      "selected_episode": 500,
+      "reward": 4.93106809258461,
+      "coverage": 0.9080079523680492,
+      "payload": 5.7881868131868135
+    },
+    {
+      "target": 0.95,
+      "seed": 42,
+      "selected_episode": 1100,
+      "reward": 4.746200922344412,
+      "coverage": 0.9386370894381326,
+      "payload": 6.486126373626374
+    },
+    {
+      "target": 0.95,
+      "seed": 123,
+      "selected_episode": 500,
+      "reward": 5.017577061695712,
+      "coverage": 0.9462652660305417,
+      "payload": 6.682486263736264
+    },
+    {
+      "target": 0.95,
+      "seed": 456,
+      "selected_episode": 300,
+      "reward": 4.995488833103861,
+      "coverage": 0.9478124334681711,
+      "payload": 6.828571428571428
+    }
+  ],
+  "target095_reproduced": true,
+  "interpretation": "Reuse 32 previously inspected held-out layouts, exploratory sensitivity analysis."
+}

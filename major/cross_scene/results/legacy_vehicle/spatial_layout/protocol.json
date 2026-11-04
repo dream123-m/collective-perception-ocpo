@@ -1,0 +1,14 @@
+{
+  "code_sha256": "46820ef0f1f53665df1033ae3fc5ae93386d98938af8f9b80fec2b6d65ff20f6",
+  "main_freeze_sha256": "4c5fb66f5cf17e3fac3631c09608b9c59e04857039f05a4bd0ef1d3697660fb4",
+  "data_manifest_sha256": "59908db72906182ccc93faeff23589856cd0041ae25915c6b6a2e9644f59d97c",
+  "source_sha256": {
+    "baseline": "176bf1ce4df026f24fd422a6a89b9ca5542d89812a0d8edcebdfa49c736c9ed3",
+    "headway": "bbfee8ed95c7012d91f522e1250ca8f631ad5df9cc7c654f5465ba672f271a8e"
+  },
+  "design": "Two archived vehicle layouts with the same vehicles/CAV labels; fixed policies trained on the conditional layout bank.",
+  "inference": "One shared fixed fading draw, seven deterministic steps per layout, three training seeds.",
+  "caveat": "One baseline and one headway geometry, not a statistical sample of headway layouts; policies are not independently retrained.",
+  "baseline": "Naive broadcasts every visible non-self object using the same physical environment.",
+  "geometry": "LOS recalculated from positions and vehicle rectangles using the current simulator geometry."
+}

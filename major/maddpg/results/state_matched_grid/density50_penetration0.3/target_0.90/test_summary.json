@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "density": 50,
+  "penetration": 0.3,
+  "target": 0.9,
+  "seed": 123,
+  "method": "MADDPG_STGS_shared_team_critic",
+  "training_episodes": 1500,
+  "selected_episode": 100,
+  "manifest_sha256": "173ae18449b0c91c5d22a65bbd1493afabee02097cdf22783cc03141d225264a",
+  "checkpoint_sha256": "8e81c72c82269bfe050a68a97987df89601fd860373cf28c255f67b112d8d7a2",
+  "test_csv_sha256": "932b35cf00d8f10bbf0dd89dcb70f016bbcb68922380219ce0ef99714080957f",
+  "elapsed_seconds": 224.82286790013313,
+  "reward": 2.5924093141757814,
+  "coverage": 0.9023201212083745,
+  "payload": 12.460798816568047
+}

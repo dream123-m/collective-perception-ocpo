@@ -1,0 +1,90 @@
+{
+  "models": [
+    {
+      "target": 0.8,
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.80\\ocpo_seed_42\\best.pt",
+      "checkpoint_sha256": "5523c9e6e5603379a1680014a62d237be429be48bba89f93e5134f73d4c3e94a",
+      "selected_episode": 900
+    },
+    {
+      "target": 0.8,
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.80\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "0b23a02d0fd21ce1e326212d0127dd1b4c029d19899ffdf267afc360efa8c530",
+      "selected_episode": 1200
+    },
+    {
+      "target": 0.8,
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.80\\ocpo_seed_456\\best.pt",
+      "checkpoint_sha256": "3d9168a6f340bab98365c419f4080b59f07ae5c39a69d1cca1dc0825bc15328a",
+      "selected_episode": 1100
+    },
+    {
+      "target": 0.85,
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.85\\ocpo_seed_42\\best.pt",
+      "checkpoint_sha256": "7906e8b5c0749ed8b51b9b2b0bd52d111384096f8270b68f6a3e59929f4b6de5",
+      "selected_episode": 1400
+    },
+    {
+      "target": 0.85,
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.85\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "e53a74820bf997e01db66b6ee68e2f328bba1a0c84c8ab8649cc72fbe45bfdeb",
+      "selected_episode": 1000
+    },
+    {
+      "target": 0.85,
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.85\\ocpo_seed_456\\best.pt",
+      "checkpoint_sha256": "c4da76b9e4581caff332d25cc4e5d072eb9b9b4b59cce15fa7158e8b4eed2ede",
+      "selected_episode": 1500
+    },
+    {
+      "target": 0.9,
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.90\\ocpo_seed_42\\best.pt",
+      "checkpoint_sha256": "62c834e34b47e55785c5f0193eee6a2617a8cfffb1d71813b2733854dbcc814f",
+      "selected_episode": 1400
+    },
+    {
+      "target": 0.9,
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "75ac8fa8071bf37f55f77852e5eb3a0b6d53eca28c69f49743ed35ca644fac67",
+      "selected_episode": 900
+    },
+    {
+      "target": 0.9,
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.90\\ocpo_seed_456\\best.pt",
+      "checkpoint_sha256": "ca79fafd3a1ff6c0b14558f6863b7c8d7b43f4c14e7e16095d8ba0cd0025b322",
+      "selected_episode": 500
+    },
+    {
+      "target": 0.95,
+      "seed": 42,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\training\\ocpo_seed_42\\best.pt",
+      "checkpoint_sha256": "94fc84a8a894edb5cb412a7aec5173617ffe96896335801b8f70f6e279169fff",
+      "selected_episode": 1100
+    },
+    {
+      "target": 0.95,
+      "seed": 123,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\training\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "168235db3435505f76065690260b5e2415a00e334a445d2e02e290e1f18b76e2",
+      "selected_episode": 500
+    },
+    {
+      "target": 0.95,
+      "seed": 456,
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\training\\ocpo_seed_456\\best.pt",
+      "checkpoint_sha256": "f39b1529d7fab8a616cf0848ced4eac761a54cb054612e59570fbbea0ab50390",
+      "selected_episode": 300
+    }
+  ],
+  "protocol_sha256": "394f34c672398ecdb2cb64af25775de03599e1ff3dfaa443780a93d93c52ec29",
+  "created_at_utc": "2026-10-30T04:19:48.046504+00:00"
+}

@@ -1,0 +1,331 @@
+{
+  "models": [
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\training\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "10d6eb8699dbe6ad4089be04adaaceb403eafe98394a95e3c385c52b0702c671"
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\training\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "168235db3435505f76065690260b5e2415a00e334a445d2e02e290e1f18b76e2"
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.5\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "3cf33d557e43c844cbf0f23dc0e04bd52f563aaa2b1e94e06a0916e0f03dcb9c"
+    },
+    {
+      "density": 50,
+      "penetration": 0.5,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\target_sweep\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "75ac8fa8071bf37f55f77852e5eb3a0b6d53eca28c69f49743ed35ca644fac67"
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.3\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "be8700efad874b7af3dab43f60d7d5786ca1cbe7db58741a7caaa91a4c21edfb"
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.3\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "544209bdcdce80842152bdf5bf7a04ada4d8574764e57a1d3e6f553eba6abfe6"
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.3\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "a743e3e1a0af39c141ce53df057cef9e73cb3a626ec3aae71bbbb214d6b587dc"
+    },
+    {
+      "density": 50,
+      "penetration": 0.3,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.3\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "1825603c38347f5429538ee80da4323e4214f25f0316431ffebd255c180e4c24"
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.7\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "ee7cd12d5d3c934bd234c96ccab7b3a44f48ae773e3be168972ba917d86b1c6b"
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.7\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "c76664448a3e412162d091b3aed5c7d4afa6f0289bb7cdf3235f23778406d8af"
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.7\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "0974e28860b9cfe19c740c60fdcf5aa057ac2a02b9562e5246b3465b20d37331"
+    },
+    {
+      "density": 50,
+      "penetration": 0.7,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density50_penetration0.7\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "270c5923187a1ee629d905e5c1e033fd0f260ce37cc1b2f23e4096c34d5043b3"
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.5\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "76138323e352bf469e296422683b0648dd9b57b0022ea69d091a3b8dbae075c0"
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.5\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "e4602d9dd064b768feb834b8bd5b939873945956250021ad8196e0d331d3da9f"
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.5\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "a073e2b84c1190424c63e9a8932b23b532a82aa3696e848146cfe65779645fa7"
+    },
+    {
+      "density": 25,
+      "penetration": 0.5,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.5\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "fcdd9640b13c273fb1359ea5b549ed7b8fae093fa0dc022d3e7be3ba8cc1744d"
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.5\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "45254e6b4514bcb6e0c227e6533603793b710efb45a7e5ab335530831441650e"
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.5\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "f8dbb16ae690613c39731f83fb57415aba8d8977089b7cea7167f24f89dc0476"
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.5\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "7f718f7855b209bac33587d49d40205c9fc80eda2d8a04336aac3058a88ba86d"
+    },
+    {
+      "density": 75,
+      "penetration": 0.5,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.5\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "9334d0520bcc7f50313a7f577d5207ca1b75a37d77c177ba10f8480981cc6896"
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.3\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "a8c2ab52360b5835eedca8287b5bd0ec1becfc3788de079043fa6001f8755320"
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.3\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "6adef756b95c3de8a7c656c9d060ef748d0123bc9a8efa5ec482e48e6399d84a"
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.3\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "aeaea7739a5f9587f6935c575c2caf523dd17d36fea7e4491cb8db3c0c103189"
+    },
+    {
+      "density": 25,
+      "penetration": 0.3,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.3\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "4dfa9d2723ce654d2c76963038ab5a9036e2fd64eb4d87258770aa7adca8f0ab"
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.7\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "6459ec9218f898202c354e1d685cac3eb89d93f2032e5f6f7ab963b66bd75f96"
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.7\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "19417bc4c69f42aeb648d03b6d92a3ca23d503d41a42c2440b62304e27bf0141"
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.7\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "cc3a85c56d55762ad1d7085fc8f72b7068f243bb5ddc65b1d8a6542a56b6f69e"
+    },
+    {
+      "density": 25,
+      "penetration": 0.7,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density25_penetration0.7\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "0bb3175129c0e25737f594b20399808c7063667952bca272f509bb15e830e6e1"
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.3\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "e91c01e7b354a26a21672b4f2f977c786a18e8b31c6f75931ba144f903905b5a"
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.3\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "445ba2cb31d019412637aa8de0bc679f408df9be33eaa1b57d1edee8c7f8f44c"
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.3\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "11b00a3f174ae17bc730bd4edd7aaa9216a8fa70efce0ed6ea74e1080f26e608"
+    },
+    {
+      "density": 75,
+      "penetration": 0.3,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.3\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "fc5ba5d842f4ac1c51d84001b29190329a9f1d65304c5e997fe565dd6e8773a8"
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.95,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.7\\target_0.95\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "818590ad3ab1e0267b9a3f23a8af66a769827254895917b185bef56ba919569f"
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.95,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.7\\target_0.95\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "98e59e90af12cf369ed4efb3c43b266514a063ea4b1f88fe0983094789b18871"
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.9,
+      "seed": 123,
+      "method": "mappo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.7\\target_0.90\\mappo_seed_123\\best.pt",
+      "checkpoint_sha256": "f104f13e880115dd7aa5fff2c5ca2375db4d708954b6997cda3368fb049cde36"
+    },
+    {
+      "density": 75,
+      "penetration": 0.7,
+      "target": 0.9,
+      "seed": 123,
+      "method": "ocpo",
+      "checkpoint": "C:\\Users\\Administrator\\Desktop\\work1\\major\\cross_scene\\results\\legacy_vehicle\\scenario_grid\\training\\density75_penetration0.7\\target_0.90\\ocpo_seed_123\\best.pt",
+      "checkpoint_sha256": "c82c7fd262d91cf0edfeb77e2e94a7f0392d7838f33725011610afe24b1a2034"
+    }
+  ],
+  "code_sha256": "a030be37d2cc053e60eb760452022485ea4caf3af8c3027cf7cd6aa42c119ef2",
+  "created_at_utc": "2026-10-30T14:42:51.671542+00:00",
+  "interpretation": "Seed selected from main validation; fixed across all scenarios; single-seed exploratory comparison."
+}

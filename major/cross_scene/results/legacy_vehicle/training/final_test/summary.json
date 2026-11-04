@@ -1,0 +1,137 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-29T16:20:15.400462+00:00",
+  "freeze_sha256": "4c5fb66f5cf17e3fac3631c09608b9c59e04857039f05a4bd0ef1d3697660fb4",
+  "data_manifest_sha256": "59908db72906182ccc93faeff23589856cd0041ae25915c6b6a2e9644f59d97c",
+  "per_run": [
+    {
+      "method": "mappo",
+      "seed": 42,
+      "selected_episode": 1500,
+      "checkpoint_sha256": "ff367a403652bf7dc59dc91e16f988be5a6a5fe0fddc4850cefbcecaa0b8b75d",
+      "policy_sha256": "12c44048f756a4758fabaa2ad953b54ed776ee1c08291029332e47addce305d1",
+      "layouts": 32,
+      "reward": 4.76066352453615,
+      "coverage": 0.9377289299746453,
+      "payload": 6.197458791208791,
+      "all_on_coverage": 0.9889687203630945,
+      "evaluation_csv": "mappo_seed_42.csv",
+      "evaluation_csv_sha256": "6f5d6e954c5a7169a07b2c3f7a31083185767e393c0ac79b224e1a35c6f1b81e"
+    },
+    {
+      "method": "ocpo",
+      "seed": 42,
+      "selected_episode": 1100,
+      "checkpoint_sha256": "94fc84a8a894edb5cb412a7aec5173617ffe96896335801b8f70f6e279169fff",
+      "policy_sha256": "47393a74c372a8ee09b13076adf78e99e2851805893549834bf8a4a878bf7d4b",
+      "layouts": 32,
+      "reward": 4.746200922344412,
+      "coverage": 0.9386370894381326,
+      "payload": 6.486126373626374,
+      "all_on_coverage": 0.9889687203630945,
+      "evaluation_csv": "ocpo_seed_42.csv",
+      "evaluation_csv_sha256": "e5789b242c2c057ea96763caa6aca5a347fda235e8a72ebd402c804e501fd269"
+    },
+    {
+      "method": "mappo",
+      "seed": 123,
+      "selected_episode": 100,
+      "checkpoint_sha256": "10d6eb8699dbe6ad4089be04adaaceb403eafe98394a95e3c385c52b0702c671",
+      "policy_sha256": "b8fd7ffc78eb4c9ceac6eff0525b21457040fa389f2b2272dd5bfd6cced4e26b",
+      "layouts": 32,
+      "reward": 4.922395540135247,
+      "coverage": 0.9372746990341998,
+      "payload": 6.362568681318681,
+      "all_on_coverage": 0.9889687203630945,
+      "evaluation_csv": "mappo_seed_123.csv",
+      "evaluation_csv_sha256": "252b9f539bd1d7278b1f786e04527b8ae8707f4c6049aacf43f00f02af7338af"
+    },
+    {
+      "method": "ocpo",
+      "seed": 123,
+      "selected_episode": 500,
+      "checkpoint_sha256": "168235db3435505f76065690260b5e2415a00e334a445d2e02e290e1f18b76e2",
+      "policy_sha256": "4ed6978d7d0dd484e52d9106824d78031c0fd44d3c2c17bab37aa46fab425822",
+      "layouts": 32,
+      "reward": 5.017577061695713,
+      "coverage": 0.9462652660305417,
+      "payload": 6.682486263736264,
+      "all_on_coverage": 0.9889687203630945,
+      "evaluation_csv": "ocpo_seed_123.csv",
+      "evaluation_csv_sha256": "2759d0fd63099c92e9b198a6eca40110cc292e79488d8c65368f6cb2fd9ce7ac"
+    },
+    {
+      "method": "mappo",
+      "seed": 456,
+      "selected_episode": 300,
+      "checkpoint_sha256": "414ce2d4005c654fb90d5d320920526e0a3d299bfbd0a48a141934302da6984c",
+      "policy_sha256": "016397b6fd9c1f4716f9f8d08a6566498540a4365272ca9c8ee44e9b0aed745b",
+      "layouts": 32,
+      "reward": 4.798635854784931,
+      "coverage": 0.9364675469835678,
+      "payload": 6.453983516483516,
+      "all_on_coverage": 0.9889687203630945,
+      "evaluation_csv": "mappo_seed_456.csv",
+      "evaluation_csv_sha256": "06b7dadabce509096852533ff50c730b6e72b02bdd49456e3df378653057ef87"
+    },
+    {
+      "method": "ocpo",
+      "seed": 456,
+      "selected_episode": 300,
+      "checkpoint_sha256": "f39b1529d7fab8a616cf0848ced4eac761a54cb054612e59570fbbea0ab50390",
+      "policy_sha256": "4e0697c320fef61d9849ae779c1427a81085443d5c29f129c6e65d4d7f1913b8",
+      "layouts": 32,
+      "reward": 4.995488833103861,
+      "coverage": 0.9478124334681712,
+      "payload": 6.828571428571429,
+      "all_on_coverage": 0.9889687203630945,
+      "evaluation_csv": "ocpo_seed_456.csv",
+      "evaluation_csv_sha256": "ede3d82b944ca9c7e748eeca6c31a58a0c31fe3ce1912eb1da0d5e7f69128e9a"
+    }
+  ],
+  "aggregate": {
+    "mappo": {
+      "reward": {
+        "mean": 4.827231639818776,
+        "sample_sd": 0.08457304776767259
+      },
+      "coverage": {
+        "mean": 0.9371570586641377,
+        "sample_sd": 0.0006388671262838314
+      },
+      "payload": {
+        "mean": 6.338003663003663,
+        "sample_sd": 0.1300146674915227
+      }
+    },
+    "ocpo": {
+      "reward": {
+        "mean": 4.919755605714662,
+        "sample_sd": 0.1507079744087625
+      },
+      "coverage": {
+        "mean": 0.9442382629789485,
+        "sample_sd": 0.004912055633415344
+      },
+      "payload": {
+        "mean": 6.665728021978023,
+        "sample_sd": 0.17183650052943128
+      }
+    }
+  },
+  "paired_reward_differences": {
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "values": [
+      -0.01446260219173734,
+      0.09518152156046611,
+      0.19685297831893056
+    ],
+    "mean": 0.09252396589588645,
+    "sample_sd": 0.10568285382796443
+  },
+  "limitation": "Conditional original-count layouts, fixed CAV lane/rank roles and one fixed fading realization; not unconditional traffic sampling."
+}
